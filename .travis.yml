@@ -10,7 +10,6 @@ branches:
     - "/^v[0-9].*$/"
 git:
   depth: false
-
 jobs:
   include:
     - stage: dev
@@ -22,18 +21,19 @@ jobs:
         - npm run test
     - stage: dev
       if: "(branch = master)"
-      name: "Deploy to dev"
+      name: Deploy to dev
       script:
         - npm run test
         - npm run build -- --mode development
       deploy:
         skip_cleanup: true
         provider: firebase
-        project: "default"
+        project: default
         message: "Build: $TRAVIS_BUILD_NUMBER / Build id: $TRAVIS_BUILD_ID"
-        token:
-          secure: "b9RT3BYdCTWCKRNKY/uU5vWPHPoyphg7sBXuxAVY9sRzUrTUMOr99cMUm+OLhtZt0Yo210IsH7NMp6SX76cJsHQ3JBD8Caq0LUMJO8RdRQ/j1BkmzA9e1LLnBdfF3bxLf3b7XUi4TZiXIIiEPhp2cbATK8XZk9APEpkjrgfe/FtD0Yao0xTFbtzYGNDohMiSVDS5zfr05itB6eS/qJPgs1fJNsQ8+pwM9ZIXUGFkdbKXz2RojHtwvPBnmFFD2j+EHCv+g+KqbdMfgFCDhS14L7dP0fdTJdmC+hzg/KbedmU19KDRA4oNBrzu+NyT/KdSkhnIJE9BhrJ/bTIJj0zusWWCRmhMO0G41cvXky31I7yL20GMomQNd7cKEe9+OV2GMFJ11xoW9prai3ZiIDj+32Vg3xfGpBALRJa+CKn3d6ykcwsi0Jb9KTgcPKKnijhUyC3ezvUAr9bnG7yQ7FYHAmgz20YG8eFCH8fW2tkqKkC/Rlk74rhwUlFxOVbXxx1ejovokQEOeNkZIXe3LSpboMUvJOc4KCCgdP6ZPDM+PRSC6jEbjzGGwYFu20WAgLcMWadCFHZIKUPRX+KWCdJKWaPlnqEbeGsbc3Zddtt6HKW6c42H25/4+daV1QdWmdTneUz7oj96Ed6s6SEcdtOMy98jockSRKsXgfPhRJJlIQU="
 notifications:
   email:
     recipients:
       - trungdt@absoft.vn
+env:
+  global:
+    secure: SzCIRLWqcZarzMTZpYf295udaK3S5wwbAKUyaGLZZkR0TZ+9BHrl4Ic+c8DUXoiIBN2jYaoDsSask3uwk0Y1F1ZLl0naGE3k+9ehla86ZfrEpMG03LrI0sw3ZR19gwUtZXk47bWVlZbyMnE5rVqrrjF8UYDvD93HyyjS+mAaqXiEyCFdNYlaIQ8LDCkx27YRHtaYPWDvceoVEkXL7Bren2IY82dLPeJ1JCjXvt4iL/r+9BTzYaYEZLwGpZe9s/48tmpBPEhmkhKveHMAS0b5OcujZNU6t08hRxurLB0tOcNDCx/BskkM1mp3IcXnIhk7Om8GTURumcwQVaTks1ZodWzaRvcfAX+zVz7slZUfosbmI3sFj8LzlxTbov053wuSNuNQb4ZLbcWZxMfvpiNFUc50/uq8yjyGu89bDC/XPuk6xslEWAXcQbOflVDmNqwvCHfl7iJogT5gw/vw16NAIsPGPGoVUmiQFPW2DayTdIBaxE6BWDxpeH08dA5W9a8bu2tMG6HlOAdi1IOJ72NdzhQPZhZPFAB5nnR0XA146V/0Uykij7y4bTUoaNMm5lYYfYfP4ocIxttRrbVOVBMJSyxIUHYWEl98HTgzN4K8tOux8m/lZMO+/+ibVVgx3/eGhue+k0XWJtPWYjksjMhWVjBiKDWfS2VvrUZd8Nt4Bo0=
