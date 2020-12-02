@@ -1,0 +1,40 @@
+language: node_js
+node_js:
+  - 12.18.2
+sudo: required
+dist: trusty
+branches:
+  only:
+    - master
+    - "/^feature.*$/"
+    - "/^v[0-9].*$/"
+git:
+  depth: false
+
+jobs:
+  include:
+    - stage: dev
+      env:
+        - NODE_ENV=development
+      name: Unit test & Integration test
+      script:
+        - npm run lint
+        - npm run test
+    - stage: dev
+      if: "(branch = master)"
+      name: "Deploy to dev"
+      script:
+        - npm run test
+        - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+        - npm run build -- --mode development
+      deploy:
+        skip_cleanup: true
+        provider: firebase
+        project: "default"
+        message: "Build: $TRAVIS_BUILD_NUMBER / Build id: $TRAVIS_BUILD_ID"
+        token:
+          secure: "Q0EsQ8rRfqyQVEKArXdBIprlcZAoQ05/xWnUTJyCaX/younkn+AQAE3gWWtbacAi+Xi3u/NsI6ElH+9UqQgJFxEIlf85x1+mVXPHqBoGIaBRZ+F4RrZF3F8qWOSRjwKRV5tNBdPlReIVCSL1fxORYjwtWhYV8yKAu3t/9epoKSdOf4XNQMHElRRE/MF+eE9AfyfpQ7QCD6omBuDuECQsPOsVwNXaOzmwcN5jcFasvwAxeL8E5Eb7F1EfvsAVZh2HyaCBPAMIvO4xHmZ0KamS3wCRJ2rPH7Kg7GZ9Bt2KySu/NaqZqLJyn1mt81o5qBtZt4ukY1qu1lIAf/sbwr7lJHTIi5CGKQTTUW+7PzlbtfpFzsprFTXrkuTKs7j2uqf52H4RX9kIUAv7Jhu68dOdvQv+kAeQl2cIGX6z48jGhz+tAhLqQo6QPfxinfY6CD3P3Q9uUen3dKOOwtKbQugEju0lgQYNdDqTUSPYS7c+5H/KudCbfodvnZmlvub32Dqo31GWTrBbyStHBqly8AAOF8WnKLsN4wT8vGxS2xaVTRZzEUvYADHCGY8Az5/BXBFoW0qMV4CNj5qcs5/i+Xyob13NXENZhves6puComSgWC0CNb1kXwq9V5IFvsmE/IbwNcfGpDr+0Ya0tNebRbr8nKJOaaaYURBWcy5YSo41SKM="
+notifications:
+  email:
+    recipients:
+      - trungdt@absoft.vn
