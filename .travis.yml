@@ -25,7 +25,6 @@ jobs:
       name: "Deploy to dev"
       script:
         - npm run test
-        - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
         - npm run build -- --mode development
       deploy:
         skip_cleanup: true
