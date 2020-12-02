@@ -32,6 +32,8 @@ jobs:
         provider: firebase
         project: "default"
         message: "Build: $TRAVIS_BUILD_NUMBER / Build id: $TRAVIS_BUILD_ID"
+        token:
+          secure: "b9RT3BYdCTWCKRNKY/uU5vWPHPoyphg7sBXuxAVY9sRzUrTUMOr99cMUm+OLhtZt0Yo210IsH7NMp6SX76cJsHQ3JBD8Caq0LUMJO8RdRQ/j1BkmzA9e1LLnBdfF3bxLf3b7XUi4TZiXIIiEPhp2cbATK8XZk9APEpkjrgfe/FtD0Yao0xTFbtzYGNDohMiSVDS5zfr05itB6eS/qJPgs1fJNsQ8+pwM9ZIXUGFkdbKXz2RojHtwvPBnmFFD2j+EHCv+g+KqbdMfgFCDhS14L7dP0fdTJdmC+hzg/KbedmU19KDRA4oNBrzu+NyT/KdSkhnIJE9BhrJ/bTIJj0zusWWCRmhMO0G41cvXky31I7yL20GMomQNd7cKEe9+OV2GMFJ11xoW9prai3ZiIDj+32Vg3xfGpBALRJa+CKn3d6ykcwsi0Jb9KTgcPKKnijhUyC3ezvUAr9bnG7yQ7FYHAmgz20YG8eFCH8fW2tkqKkC/Rlk74rhwUlFxOVbXxx1ejovokQEOeNkZIXe3LSpboMUvJOc4KCCgdP6ZPDM+PRSC6jEbjzGGwYFu20WAgLcMWadCFHZIKUPRX+KWCdJKWaPlnqEbeGsbc3Zddtt6HKW6c42H25/4+daV1QdWmdTneUz7oj96Ed6s6SEcdtOMy98jockSRKsXgfPhRJJlIQU="
 notifications:
   email:
     recipients:
