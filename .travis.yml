@@ -30,10 +30,10 @@ jobs:
         provider: firebase
         project: default
         message: "Build: $TRAVIS_BUILD_NUMBER / Build id: $TRAVIS_BUILD_ID"
+        token:
+          secure: SzCIRLWqcZarzMTZpYf295udaK3S5wwbAKUyaGLZZkR0TZ+9BHrl4Ic+c8DUXoiIBN2jYaoDsSask3uwk0Y1F1ZLl0naGE3k+9ehla86ZfrEpMG03LrI0sw3ZR19gwUtZXk47bWVlZbyMnE5rVqrrjF8UYDvD93HyyjS+mAaqXiEyCFdNYlaIQ8LDCkx27YRHtaYPWDvceoVEkXL7Bren2IY82dLPeJ1JCjXvt4iL/r+9BTzYaYEZLwGpZe9s/48tmpBPEhmkhKveHMAS0b5OcujZNU6t08hRxurLB0tOcNDCx/BskkM1mp3IcXnIhk7Om8GTURumcwQVaTks1ZodWzaRvcfAX+zVz7slZUfosbmI3sFj8LzlxTbov053wuSNuNQb4ZLbcWZxMfvpiNFUc50/uq8yjyGu89bDC/XPuk6xslEWAXcQbOflVDmNqwvCHfl7iJogT5gw/vw16NAIsPGPGoVUmiQFPW2DayTdIBaxE6BWDxpeH08dA5W9a8bu2tMG6HlOAdi1IOJ72NdzhQPZhZPFAB5nnR0XA146V/0Uykij7y4bTUoaNMm5lYYfYfP4ocIxttRrbVOVBMJSyxIUHYWEl98HTgzN4K8tOux8m/lZMO+/+ibVVgx3/eGhue+k0XWJtPWYjksjMhWVjBiKDWfS2VvrUZd8Nt4Bo0=
+
 notifications:
   email:
     recipients:
       - trungdt@absoft.vn
-env:
-  global:
-    secure: SzCIRLWqcZarzMTZpYf295udaK3S5wwbAKUyaGLZZkR0TZ+9BHrl4Ic+c8DUXoiIBN2jYaoDsSask3uwk0Y1F1ZLl0naGE3k+9ehla86ZfrEpMG03LrI0sw3ZR19gwUtZXk47bWVlZbyMnE5rVqrrjF8UYDvD93HyyjS+mAaqXiEyCFdNYlaIQ8LDCkx27YRHtaYPWDvceoVEkXL7Bren2IY82dLPeJ1JCjXvt4iL/r+9BTzYaYEZLwGpZe9s/48tmpBPEhmkhKveHMAS0b5OcujZNU6t08hRxurLB0tOcNDCx/BskkM1mp3IcXnIhk7Om8GTURumcwQVaTks1ZodWzaRvcfAX+zVz7slZUfosbmI3sFj8LzlxTbov053wuSNuNQb4ZLbcWZxMfvpiNFUc50/uq8yjyGu89bDC/XPuk6xslEWAXcQbOflVDmNqwvCHfl7iJogT5gw/vw16NAIsPGPGoVUmiQFPW2DayTdIBaxE6BWDxpeH08dA5W9a8bu2tMG6HlOAdi1IOJ72NdzhQPZhZPFAB5nnR0XA146V/0Uykij7y4bTUoaNMm5lYYfYfP4ocIxttRrbVOVBMJSyxIUHYWEl98HTgzN4K8tOux8m/lZMO+/+ibVVgx3/eGhue+k0XWJtPWYjksjMhWVjBiKDWfS2VvrUZd8Nt4Bo0=
