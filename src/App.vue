@@ -14,5 +14,8 @@ export default defineComponent({
 </script>
 
 <template>
-  <div>hello from Trung</div>
+  <div>
+    <div>hello from Trung</div>
+    <div>Hello from Thao</div>
+  </div>
 </template>

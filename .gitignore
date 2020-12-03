@@ -25,3 +25,4 @@ ui-debug.log
 public/config.js
 coverage/*
 key.json
+.env
