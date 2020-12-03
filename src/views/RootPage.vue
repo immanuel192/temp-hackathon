@@ -161,7 +161,7 @@ export default {
         }
       }
 
-      console.log(JSON.stringify(dateSentiments, null, 2))
+      // console.log(JSON.stringify(dateSentiments, null, 2))
 
       const dataSets = dateSentiments.map(s => {
         if (s.sentiment === 'positive') {
@@ -250,6 +250,8 @@ export default {
   .bar-chart {
     width: 350px;
     background: #ffffff;
+    width: 1000px;
+    height: 500px;
   }
 
   .progress-chart {
@@ -257,11 +259,6 @@ export default {
     background: #ffffff;
     border-radius: 4px;
     padding: 20px;
-  }
-
-  .bar-chart {
-    width: 1000px;
-    height: 500px;
   }
 }
 </style>
