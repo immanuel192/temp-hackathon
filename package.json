@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.10",
+    "firebase-admin": "^9.4.1",
     "lodash": "^4.17.20",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.12"
