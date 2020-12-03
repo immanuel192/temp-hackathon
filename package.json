@@ -15,11 +15,15 @@
     "bluebird": "^3.7.2",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.20.1",
+    "chart.js": "^2.9.4",
     "firebase": "^8.1.1",
     "firebase-admin": "^9.4.1",
     "lodash": "^4.17.20",
+    "node-sass": "^5.0.0",
     "register-service-worker": "^1.7.1",
-    "vue": "^2.6.12"
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.12",
+    "vue-chartjs": "^3.5.1"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.33",
