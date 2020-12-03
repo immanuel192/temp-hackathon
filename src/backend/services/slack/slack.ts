@@ -102,6 +102,12 @@ export class Slack implements ISlack {
         res.nextTs = message.ts;
       }
     });
+    if (ops.fetchOnward) {
+      res.messages = res.messages.filter((t) => t.ts > ops.ts);
+    }
+    if (!ops.fetchOnward) {
+      res.messages = res.messages.filter((t) => t.ts < ops.ts);
+    }
 
     return res;
   }

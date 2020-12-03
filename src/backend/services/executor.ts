@@ -9,7 +9,7 @@ export class ChannelCrawlExecutor {
     private comprehend: IAWSComprehend,
   ) { }
 
-  async run(channelId: string) {
+  async run(channelId: string, direction: 'onward' | 'backward') {
     const channel = await this.firestore.getChannelById(channelId);
 
     if (!channel) {
@@ -17,11 +17,11 @@ export class ChannelCrawlExecutor {
     }
 
     const lastTs = this.calculateLastTs(channel.lastRead);
-    console.log(`Executing channel ${channelId} from ${new Date(lastTs).toISOString()}`);
+    console.log(`Executing channel ${channelId} from ${new Date(lastTs).toISOString()} with direction ${direction}`);
 
     const response = await this.slack.fetchMessages({
       id: channelId,
-      fetchOnward: true,
+      fetchOnward: direction === 'onward',
       ts: lastTs,
     });
 
@@ -31,6 +31,8 @@ export class ChannelCrawlExecutor {
       if (!message.text.trim()) {
         return Promise.resolve();
       }
+
+      console.log(message);
 
       const score = await this.comprehend.analyse([message.text]);
 
