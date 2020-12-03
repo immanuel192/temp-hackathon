@@ -12,12 +12,15 @@ export default defineComponent({
   </div>
 </template>
 <style lang="scss" scoped>
-$header-height: 50px;
+$header-height: 150px;
+$header-top: 5px;
 
 .header {
   padding: 10px;
-  background: #004085;
+  background: #2b577d;
   color: #ffffff;
   height: $header-height;
+  margin-top: $header-top;
+  width: 100%;
 }
 </style>
