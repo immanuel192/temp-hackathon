@@ -9,7 +9,9 @@ import CustomPolarChart from '@/views/CustomPolarChart';
 import CustomBarChart from '@/views/CustomBarChart';
 // @ts-ignore
 import ProgressBar from '@/views/ProgressBar';
-import { get, countBy, map, groupBy, chain, sum, filter, sortBy } from 'lodash';
+// @ts-ignore
+import Loading from '@/views/Loading';
+import { get, map, groupBy, chain, filter } from 'lodash';
 import { db } from '@/main';
 
 interface SentimentScore {
@@ -51,6 +53,7 @@ export default {
     CustomPolarChart,
     CustomBarChart,
     ProgressBar,
+    Loading,
   },
   props: ['currentChannel'],
   data() {
@@ -90,6 +93,7 @@ export default {
         this.getPolarChartData()
       } else {
         console.log('no match data')
+        this.loaded = true
       }
     },
     getPolarChartData() {
@@ -228,6 +232,7 @@ export default {
         <img src="@/assets/icon-refresh.png" alt="refresh">
       </div>
     </div>
+    <loading v-if="!loaded" class="loading-container p-3 p-md-5 m-md-3"/>
     <custom-bar-chart v-if="loaded" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <progress-bar v-if="loaded" class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
@@ -278,6 +283,13 @@ export default {
     background: #ffffff;
     border-radius: 4px;
     padding: 20px;
+  }
+
+  .loading-container {
+    background: #ffffff;
+    text-align: center;
+    min-height: 700px;
+    padding-top: 30% !important;
   }
 }
 </style>
