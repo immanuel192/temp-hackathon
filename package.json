@@ -38,6 +38,7 @@
     "ts-node": "^9.0.0",
     "firebase-admin": "^9.4.1",
     "tslib": "^2.0.3",
+    "@slack/bolt": "^2.5.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
