@@ -48,7 +48,8 @@ $header-top: 5px;
   }
 
   footer {
-    bottom: 70px;
+    bottom: 170px;
+    left: 16px;
   }
 }
 </style>

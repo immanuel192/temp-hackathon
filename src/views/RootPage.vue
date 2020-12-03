@@ -226,17 +226,19 @@ export default {
 </script>
 <template>
   <div class="root-page shadow">
-    <div class="d-md-flex">
-      <div class="title">#{{ currentChannel.name }}</div>
-      <div class="refresh" @click="this.getData">
-        <img src="@/assets/icon-refresh.png" alt="refresh">
+    <div class="root-page-container">
+      <div class="d-md-flex">
+        <div class="title">#{{ currentChannel.name }}</div>
+        <div class="refresh" @click="this.getData">
+          <img src="@/assets/icon-refresh.png" alt="refresh">
+        </div>
       </div>
-    </div>
-    <loading v-if="!loaded" class="loading-container p-3 p-md-5 m-md-3"/>
-    <custom-bar-chart v-if="loaded" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <progress-bar v-if="loaded" class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
-      <custom-polar-chart v-if="loaded" class="polar-chart d-flex mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
+      <loading v-if="!loaded" class="loading-container p-3 p-md-5 m-md-3"/>
+      <custom-bar-chart v-if="loaded" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <progress-bar v-if="loaded" class="progress-chart" :chartData="polarChartData" />
+        <custom-polar-chart v-if="loaded" class="polar-chart d-flex" :chartData="polarChartData" />
+      </div>
     </div>
   </div>
 </template>
@@ -251,45 +253,53 @@ export default {
   padding: 36px 24px;
   width: 80%;
 
-  .title {
-    font-size: 36px;
-    color: #333333;
-  }
+  .root-page-container {
+    margin: auto;
+    max-width: 1000px;
 
-  .refresh {
-    margin-left: auto;
-    cursor: pointer;
-    line-height: 54px;
-
-    img {
-      width: 16px;
+    .title {
+      font-size: 36px;
+      color: #333333;
     }
-  }
 
-  .bar-chart {
-    width: 350px;
-    background: #ffffff;
-    width: 1000px;
-    height: 500px;
-  }
+    .refresh {
+      margin-left: auto;
+      cursor: pointer;
+      line-height: 54px;
 
-  .progress-chart {
-    background: #ffffff;
-    border-radius: 4px;
-    padding: 20px;
-  }
+      img {
+        width: 16px;
+      }
+    }
 
-  .polar-chart {
-    background: #ffffff;
-    border-radius: 4px;
-    padding: 20px;
-  }
+    .bar-chart {
+      width: 350px;
+      background: #ffffff;
+      width: 1000px;
+      height: 500px;
+    }
 
-  .loading-container {
-    background: #ffffff;
-    text-align: center;
-    min-height: 700px;
-    padding-top: 30% !important;
+    .progress-chart {
+      background: #ffffff;
+      border-radius: 4px;
+      padding: 20px;
+      margin-right: 16px;
+      min-width: 50%;
+    }
+
+    .polar-chart {
+      background: #ffffff;
+      border-radius: 4px;
+      padding: 20px;
+      min-width: 50%;
+    }
+
+    .loading-container {
+      background: #ffffff;
+      text-align: center;
+      min-height: 700px;
+      padding-top: 30% !important;
+    }
   }
 }
 </style>
