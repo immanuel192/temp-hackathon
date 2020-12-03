@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
     "lint": "eslint src tests --ext .ts",
-    "run-backend": "ts-node -r ts-node/register/transpile-only src/backend/app.ts"
+    "run-backend": "ts-node -r ts-node/register/transpile-only src/backend/app.ts",
+    "fetch-history": "DOTENV=.env ts-node -r ts-node/register/transpile-only src/backend/fetch-historical-data.ts"
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.10",
