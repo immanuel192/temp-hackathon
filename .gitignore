@@ -26,3 +26,4 @@ public/config.js
 coverage/*
 key.json
 .env
+.env.playpen
