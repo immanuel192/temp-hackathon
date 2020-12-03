@@ -1,0 +1,202 @@
+[
+   {
+      "id": "xyz-1",
+      "ts": "2020-12-01 02:00:07",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.86,
+         "positive": 0.06,
+         "neutral": 0.03000000,
+         "negative": 0.05000000,
+         "sentiment": "NEUTRAL"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-2",
+      "ts": "2020-12-01 02:00:20",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.22,
+         "positive": 0.19,
+         "neutral": 0.27000000,
+         "negative": 0.32000000,
+         "sentiment": "Positive"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "10",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-3",
+      "ts": "2020-12-01 02:00:33",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.25,
+         "positive": 0.2,
+         "neutral": 0.27000000,
+         "negative": 0.28000000,
+         "sentiment": "Negative"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "13",
+         "month": "10",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-4",
+      "ts": "2020-12-01 02:00:46",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.82,
+         "positive": 0.09,
+         "neutral": 0.09000000,
+         "negative": 0.00000000,
+         "sentiment": "Negative"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-5",
+      "ts": "2020-12-01 02:00:59",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.52,
+         "positive": 0.22,
+         "neutral": 0.06000000,
+         "negative": 0.20000000,
+         "sentiment": "Positive"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "23",
+         "month": "12",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-6",
+      "ts": "2020-12-01 02:01:12",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.03,
+         "positive": 0.29,
+         "neutral": 0.02000000,
+         "negative": 0.66000000,
+         "sentiment": "NEUTRAL"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-7",
+      "ts": "2020-12-02 02:01:25",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.17,
+         "positive": 0.74,
+         "neutral": 0.05000000,
+         "negative": 0.04000000,
+         "sentiment": "Mixed"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-8",
+      "ts": "2020-12-02 02:01:38",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.39,
+         "positive": 0.5,
+         "neutral": 0.03000000,
+         "negative": 0.08000000,
+         "sentiment": "NEUTRAL"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-9",
+      "ts": "2020-12-03 02:01:51",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.96,
+         "positive": 0.04,
+         "neutral": 0.00000000,
+         "negative": 0.00000000,
+         "sentiment": "NEUTRAL"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-10",
+      "ts": "2020-12-03 02:02:04",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.1,
+         "positive": 0.8,
+         "neutral": 0.1,
+         "negative": 0.00000000,
+         "sentiment": "POSITIVE"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "3",
+         "month": "11",
+         "year": "2020"
+      }
+   }
+]

@@ -1,6 +1,7 @@
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api';
 import data from '@/sample-data.json';
+import data1 from '@/sample-data-1.json';
 // @ts-ignore
 import CustomPolarChart from '@/views/CustomPolarChart';
 // @ts-ignore
@@ -9,6 +10,29 @@ import CustomBarChart from '@/views/CustomBarChart';
 import ProgressBar from '@/views/ProgressBar';
 import { get, countBy, map, groupBy, chain, sum, filter } from 'lodash';
 import { db } from '@/main';
+
+interface SentimentScore {
+  mixed: number
+  negative: number
+  neutral: number
+  positive: number
+  sentiment: string
+}
+
+interface TsDetail {
+  day: string
+  month: string
+  year: string
+}
+
+interface MessageSentiment {
+  id: string
+  channelId: string
+  channelName: string
+  sentimentScore: SentimentScore
+  ts: string
+  tsDetail: TsDetail
+}
 
 export default {
   components: {
@@ -98,6 +122,87 @@ export default {
       this.loaded = true
     }
   },
+  computed: {
+    barChartData() {
+      const messageSentiments: MessageSentiment[] = data1
+
+      const sentimentsByDate = groupBy(messageSentiments, (sentiment) => {
+        return (new Date(sentiment.ts)).toDateString()
+      })
+
+      let dateSentiments = []
+
+      for (const dateKey in sentimentsByDate) {
+        let positiveCount = 0
+        let negativeCount = 0
+
+        sentimentsByDate[dateKey].forEach(sentiment => {
+          if (sentiment.sentimentScore.sentiment.toLowerCase() === 'positive') {
+            positiveCount += 1
+          }
+
+          if (sentiment.sentimentScore.sentiment.toLowerCase() === 'negative') {
+            negativeCount += 1
+          }
+        })
+
+        if (positiveCount > negativeCount) {
+          dateSentiments.push({
+            dateStr: dateKey,
+            count: positiveCount,
+            sentiment: 'positive',
+          })
+        } else {
+          dateSentiments.push({
+            dateStr: dateKey,
+            count: negativeCount,
+            sentiment: 'negative',
+          })
+        }
+      }
+
+      console.log(JSON.stringify(dateSentiments, null, 2))
+
+      const dataSets = dateSentiments.map(s => {
+        if (s.sentiment === 'positive') {
+          return {
+            label: s.dateStr,
+            backgroundColor: '#428527',
+            data: [s.count],
+          }
+        }
+        return {
+          label: s.dateStr,
+          backgroundColor: '#BC192A',
+          data: [-s.count],
+        }
+      })
+
+      return {
+        datasets: dataSets,
+      }
+    },
+    barChartOptions() {
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          display: false,
+        },
+        tooltips: {
+          enabled: true,
+          callbacks: {
+            // label: function(tooltipItem, data) {
+            //   return ''
+            // },
+            title: function(tooltipItem, data) {
+              return ''
+            }
+          }
+        }
+      }
+    }
+  }
 }
 </script>
 <template>
@@ -108,7 +213,7 @@ export default {
         <img src="@/assets/icon-refresh.png" alt="refresh">
       </div>
     </div>
-    <custom-bar-chart class="bar-chart p-3 p-md-5 m-md-3"/>
+    <custom-bar-chart class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <progress-bar class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
       <custom-polar-chart v-if="loaded" class="polar-chart d-flex mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
@@ -154,11 +259,9 @@ export default {
     padding: 20px;
   }
 
-  .polar-chart {
-    width: 350px;
-    background: #ffffff;
-    border-radius: 4px;
-    padding: 20px;
+  .bar-chart {
+    width: 1000px;
+    height: 500px;
   }
 }
 </style>

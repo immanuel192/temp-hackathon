@@ -7,11 +7,16 @@ export default {
   props: {
     chartData: {
       type: Object,
-      default: null,
+      default: null
+    },
+    options: {
+      type: Object,
+      default: null
     }
   },
   mounted() {
-    this.renderChart(this.chartData)
+    // @ts-ignore
+    this.renderChart(this.chartData, this.options)
   },
   computed: {
     myStyles () {
@@ -22,7 +27,9 @@ export default {
   }
 }
 </script>
-  <bar-chart :chartdata="chartData" :styles="myStyles"></bar-chart>
+
+<bar-chart :chartdata="chartData" :styles="myStyles"></bar-chart>
+
 <style lang="scss" scoped>
 
 </style>
