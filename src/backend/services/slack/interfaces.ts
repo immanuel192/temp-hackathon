@@ -3,6 +3,7 @@ import { IChannelRecord } from '@/share';
 import { WebAPICallResult } from '@slack/web-api';
 
 export interface ISlack {
+  init(): void;
   getAllChannels(): Promise<IChannelRecord[]>;
   fetchMessages(ops: IFetchMessagesRequest): Promise<IFetchMessagesResponse>;
 }
@@ -25,7 +26,7 @@ export interface ISlackMessage {
   type: string;
   user: string;
   text: string;
-  ts: string;
+  ts: number;
 }
 
 export interface IFetchMessagesRequest {
@@ -40,6 +41,7 @@ export interface IFetchMessagesRequest {
 
 export type IFetchMessagesResponse = {
   hasMore: boolean;
+  nextTs: number;
   nextCursor: string;
   messages: ISlackMessage[];
 }

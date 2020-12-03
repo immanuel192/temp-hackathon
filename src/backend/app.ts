@@ -1,20 +1,37 @@
 import './services/config';
+import { config } from 'aws-sdk';
+import { TSFlag } from 'ts-flag';
+import { ISlack, IFireStore, IAWSComprehend } from './services/interfaces';
+import { FireStore } from './services/firestore';
 import { Slack } from './services/slack';
-import { config } from 'aws-sdk'
-import AWSComprehend from "./services/comprehend";
+import { ChannelCrawlExecutor } from './services/executor';
+import AWSComprehend from './services/comprehend';
 
-config.update({ region: 'eu-west-1' }); // Whatever region for now.
+config.update({ region: 'us-west-2' });
 
+console.log('Starting app');
+const flag = new TSFlag();
 Promise.resolve()
   .then(async () => {
-    const slack = new Slack();
+    console.log('Init Slack');
+    const slack: ISlack = new Slack();
     slack.init();
-    const messages = await slack.fetchMessages({
-      id: 'G01F74EUWA3',
-      fetchOnward: false,
-      ts: 1606886139.024300,
-      limit: 10,
-    });
 
-    console.log(messages);
+    console.log('Init Firestore');
+    const firestore: IFireStore = new FireStore();
+    firestore.init();
+
+    //
+    console.log('Init AWS comprehend');
+    const awsComprehend: IAWSComprehend = new AWSComprehend();
+
+    //
+    const channelId = flag.str('channel', null, 'channel Id');
+
+    const executor = new ChannelCrawlExecutor(slack, firestore, awsComprehend);
+    await executor.run(channelId);
+  })
+  .catch((err) => {
+    console.error(err);
+    flag.Usage();
   });

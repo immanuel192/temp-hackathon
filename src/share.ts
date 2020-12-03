@@ -1,5 +1,5 @@
 export interface IComprehendScore {
-  sentiment: "POSITIVE" | "NEGATIVE" | "NEUTRAL" | "MIXED" | string
+  sentiment: "POSITIVE" | "NEGATIVE" | "NEUTRAL" | "MIXED" | string;
   mixed: number;
   positive: number;
   neutral: number;
@@ -11,7 +11,7 @@ export interface IComprehendScore {
  * All fields will be indexed
  */
 export interface IMessageSentimentRecord {
-  _id?: string;
+  id?: string;
   ts: Date;
   // for easy data query
   tsDetail: {
@@ -19,7 +19,6 @@ export interface IMessageSentimentRecord {
     month: number;
     day: number;
   };
-  channelName: string;
   channelId: string;
   sentimentScore: IComprehendScore;
   languageCode: string;
@@ -29,7 +28,7 @@ export interface IMessageSentimentRecord {
  * An interface for the channel record, in collection channels
  */
 export interface IChannelRecord {
-  _id?: string;
+  id?: string;
   channelId: string;
   name: string;
   isChannel: boolean;
