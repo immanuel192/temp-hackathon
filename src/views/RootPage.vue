@@ -1,14 +1,16 @@
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api';
-// import { Bar } from 'vue-chartjs';
 import data from '@/sample-data.json';
 // @ts-ignore
 import CustomPolarChart from '@/views/CustomPolarChart';
+// @ts-ignore
+import CustomBarChart from '@/views/CustomBarChart';
 import { get, countBy, map, groupBy, chain, sum } from 'lodash';
 
 export default {
   components: {
     CustomPolarChart,
+    CustomBarChart,
   },
   data() {
     return {
@@ -61,6 +63,7 @@ export default {
 <template>
   <div class="root-page">
     <custom-polar-chart :chartData="polarChartData" />
+    <custom-bar-chart class="bar-chart"/>
   </div>
 </template>
 <style lang="scss" scoped>
