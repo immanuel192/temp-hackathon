@@ -32,6 +32,8 @@ export class ChannelCrawlExecutor {
         return Promise.resolve();
       }
 
+      console.log(message);
+
       const score = await this.comprehend.analyse([message.text]);
 
       console.log(`Adding scpre for ${message.text} as ${score.sentiment}`);

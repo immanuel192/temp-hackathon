@@ -26,6 +26,7 @@ export class ExecutorOrchestrator {
 
     const executors = channels.map((channel) => {
       const t = 1;
+      // @todo
       const ret = {
         channelId: channel,
         executor: new ChannelCrawlExecutor(this.slack, this.firestore, this.comprehend),
