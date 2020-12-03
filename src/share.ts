@@ -1,3 +1,10 @@
+export interface IComprehendScore {
+  mixed: number;
+  positive: number;
+  neutral: number;
+  negative: number;
+}
+
 /**
  * An interface for the record in collection messagesentiments
  * All fields will be indexed
@@ -13,12 +20,7 @@ export interface IMessageSentimentRecord {
   };
   channelName: string;
   channelId: string;
-  sentimentScore: {
-    mixed: number;
-    positive: number;
-    neutral: number;
-    negative: number;
-  };
+  sentimentScore: IComprehendScore;
   languageCode: string;
 }
 
