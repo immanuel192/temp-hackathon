@@ -230,7 +230,7 @@ export default {
     </div>
     <custom-bar-chart v-if="loaded" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <progress-bar class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
+      <progress-bar v-if="loaded" class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
       <custom-polar-chart v-if="loaded" class="polar-chart d-flex mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
     </div>
   </div>
