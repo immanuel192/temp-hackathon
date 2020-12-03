@@ -2,13 +2,14 @@
 import { defineComponent } from '@vue/composition-api';
 import data from '@/sample-data.json';
 import data1 from '@/sample-data-1.json';
+import data2 from '@/sample-data-2.json';
 // @ts-ignore
 import CustomPolarChart from '@/views/CustomPolarChart';
 // @ts-ignore
 import CustomBarChart from '@/views/CustomBarChart';
 // @ts-ignore
 import ProgressBar from '@/views/ProgressBar';
-import { get, countBy, map, groupBy, chain, sum, filter } from 'lodash';
+import { get, countBy, map, groupBy, chain, sum, filter, sortBy } from 'lodash';
 import { db } from '@/main';
 
 interface SentimentScore {
@@ -20,18 +21,29 @@ interface SentimentScore {
 }
 
 interface TsDetail {
-  day: string
-  month: string
-  year: string
+  day: number
+  month: number
+  year: number
+}
+
+interface Ts {
+  seconds: number,
+  nanoseconds: number,
 }
 
 interface MessageSentiment {
-  id: string
+  id?: string
   channelId: string
-  channelName: string
+  channelName?: string
   sentimentScore: SentimentScore
-  ts: string
+  ts: Ts
   tsDetail: TsDetail
+}
+
+interface DateSentiment {
+  dateStr: string,
+  count: number,
+  sentiment: string,
 }
 
 export default {
@@ -124,13 +136,13 @@ export default {
   },
   computed: {
     barChartData() {
-      const messageSentiments: MessageSentiment[] = data1
+      const messageSentiments: MessageSentiment[] = this.rawData
 
       const sentimentsByDate = groupBy(messageSentiments, (sentiment) => {
-        return (new Date(sentiment.ts)).toDateString()
+        return (new Date(sentiment.ts.seconds * 1000)).toDateString()
       })
 
-      let dateSentiments = []
+      let dateSentiments: DateSentiment[] = []
 
       for (const dateKey in sentimentsByDate) {
         let positiveCount = 0
@@ -162,6 +174,9 @@ export default {
       }
 
       // console.log(JSON.stringify(dateSentiments, null, 2))
+      dateSentiments = dateSentiments.sort((dS1, dS2) => {
+        return (new Date(dS1.dateStr)) > (new Date(dS2.dateStr)) ? 1 : -1
+      })
 
       const dataSets = dateSentiments.map(s => {
         if (s.sentiment === 'positive') {
@@ -213,7 +228,7 @@ export default {
         <img src="@/assets/icon-refresh.png" alt="refresh">
       </div>
     </div>
-    <custom-bar-chart class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
+    <custom-bar-chart v-if="loaded" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <progress-bar class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
       <custom-polar-chart v-if="loaded" class="polar-chart d-flex mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />

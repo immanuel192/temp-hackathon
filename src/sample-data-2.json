@@ -1,0 +1,1502 @@
+[
+   {
+     "ts": {
+       "seconds": 1606710357,
+       "nanoseconds": 177000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 30
+     },
+     "sentimentScore": {
+       "neutral": 0.9509430527687073,
+       "positive": 0.03390979394316673,
+       "negative": 0.009196161292493343,
+       "mixed": 0.005951059516519308,
+       "sentiment": "NEUTRAL"
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "ts": {
+       "seconds": 1604978131,
+       "nanoseconds": 105000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 10,
+       "month": 10
+     },
+     "sentimentScore": {
+       "positive": 0.00016874069115146995,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.000007108761565177701,
+       "negative": 0.0007804380729794502,
+       "neutral": 0.9990436434745789
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en"
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606709514,
+       "nanoseconds": 171000000
+     },
+     "tsDetail": {
+       "month": 10,
+       "day": 30,
+       "year": 2020
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "sentiment": "NEGATIVE",
+       "neutral": 0.15227775275707245,
+       "mixed": 0.18300990760326385,
+       "positive": 0.1675785630941391,
+       "negative": 0.4971337616443634
+     }
+   },
+   {
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "neutral": 0.7877721786499023,
+       "negative": 0.16207483410835266,
+       "mixed": 0.019803479313850403,
+       "positive": 0.03034946322441101
+     },
+     "ts": {
+       "seconds": 1606433494,
+       "nanoseconds": 148000000
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 10,
+       "day": 26,
+       "year": 2020
+     }
+   },
+   {
+     "languageCode": "en",
+     "tsDetail": {
+       "day": 30,
+       "month": 10,
+       "year": 2020
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "sentiment": "NEGATIVE",
+       "negative": 0.9955878257751465,
+       "positive": 0.00029145588632673025,
+       "neutral": 0.0027274838648736477,
+       "mixed": 0.0013931819703429937
+     },
+     "ts": {
+       "seconds": 1606709577,
+       "nanoseconds": 173000000
+     }
+   },
+   {
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "mixed": 0.018267426639795303,
+       "negative": 0.13012905418872833,
+       "positive": 0.17811597883701324,
+       "neutral": 0.6734874844551086
+     },
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 19
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1605829256,
+       "nanoseconds": 124000000
+     }
+   },
+   {
+     "tsDetail": {
+       "month": 10,
+       "day": 26,
+       "year": 2020
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "mixed": 0.036382224410772324,
+       "negative": 0.8670902252197266,
+       "neutral": 0.09197066724300385,
+       "positive": 0.004556859377771616,
+       "sentiment": "NEGATIVE"
+     },
+     "ts": {
+       "seconds": 1606433550,
+       "nanoseconds": 149000000
+     }
+   },
+   {
+     "tsDetail": {
+       "day": 25,
+       "month": 10,
+       "year": 2020
+     },
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "neutral": 0.7104736566543579,
+       "positive": 0.003607635386288166,
+       "negative": 0.285671204328537,
+       "mixed": 0.00024744009715504944
+     },
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606339615,
+       "nanoseconds": 137000000
+     },
+     "languageCode": "en"
+   },
+   {
+     "tsDetail": {
+       "year": 2020,
+       "day": 30,
+       "month": 10
+     },
+     "sentimentScore": {
+       "mixed": 0.030616076663136482,
+       "positive": 0.0016689073527231812,
+       "negative": 0.9593326449394226,
+       "sentiment": "NEGATIVE",
+       "neutral": 0.008382459171116352
+     },
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606709705,
+       "nanoseconds": 176000000
+     },
+     "languageCode": "en"
+   },
+   {
+     "sentimentScore": {
+       "mixed": 0.00007040624768706039,
+       "neutral": 0.9674317240715027,
+       "negative": 0.03195332735776901,
+       "positive": 0.0005446421564556658,
+       "sentiment": "NEUTRAL"
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 30
+     },
+     "ts": {
+       "seconds": 1606705415,
+       "nanoseconds": 163000000
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606375395,
+       "nanoseconds": 140000000
+     },
+     "tsDetail": {
+       "day": 26,
+       "year": 2020,
+       "month": 10
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "negative": 0.15715642273426056,
+       "sentiment": "POSITIVE",
+       "mixed": 0.008899488486349583,
+       "positive": 0.4251227080821991,
+       "neutral": 0.4088214635848999
+     }
+   },
+   {
+     "sentimentScore": {
+       "negative": 0.49079689383506775,
+       "positive": 0.04350585862994194,
+       "sentiment": "NEGATIVE",
+       "mixed": 0.21526013314723969,
+       "neutral": 0.2504372000694275
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "year": 2020,
+       "day": 30,
+       "month": 10
+     },
+     "ts": {
+       "seconds": 1606710535,
+       "nanoseconds": 178000000
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1604976466,
+       "nanoseconds": 102000000
+     },
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 10
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "mixed": 0.00017264993221033365,
+       "sentiment": "NEUTRAL",
+       "neutral": 0.5138696432113647,
+       "negative": 0.002879375359043479,
+       "positive": 0.48307839035987854
+     }
+   },
+   {
+     "sentimentScore": {
+       "sentiment": "POSITIVE",
+       "positive": 0.9933371543884277,
+       "neutral": 0.00634533679112792,
+       "mixed": 0.0000923090847209096,
+       "negative": 0.00022520501806866378
+     },
+     "ts": {
+       "seconds": 1604553741,
+       "nanoseconds": 91000000
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 5
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1604553733,
+       "nanoseconds": 91000000
+     },
+     "sentimentScore": {
+       "positive": 0.3702163100242615,
+       "negative": 0.038534101098775864,
+       "neutral": 0.5771225690841675,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.01412702165544033
+     },
+     "languageCode": "en",
+     "tsDetail": {
+       "month": 10,
+       "day": 5,
+       "year": 2020
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "languageCode": "en",
+     "sentimentScore": {
+       "neutral": 0.0959869921207428,
+       "positive": 0.7836735844612122,
+       "mixed": 0.05406463146209717,
+       "negative": 0.06627487391233444,
+       "sentiment": "POSITIVE"
+     },
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 10,
+       "day": 30,
+       "year": 2020
+     },
+     "ts": {
+       "seconds": 1606710395,
+       "nanoseconds": 177000000
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1606709591,
+       "nanoseconds": 174000000
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "neutral": 0.05272189900279045,
+       "mixed": 0.49866634607315063,
+       "sentiment": "MIXED",
+       "positive": 0.004266084171831608,
+       "negative": 0.4443456828594208
+     },
+     "tsDetail": {
+       "day": 30,
+       "year": 2020,
+       "month": 10
+     }
+   },
+   {
+     "languageCode": "en",
+     "sentimentScore": {
+       "negative": 0.0649852380156517,
+       "sentiment": "NEUTRAL",
+       "neutral": 0.9088181853294373,
+       "positive": 0.009043672122061253,
+       "mixed": 0.017152931541204453
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 30,
+       "month": 10
+     },
+     "ts": {
+       "seconds": 1606709512,
+       "nanoseconds": 171000000
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 6
+     },
+     "ts": {
+       "seconds": 1604639468,
+       "nanoseconds": 94000000
+     },
+     "sentimentScore": {
+       "neutral": 0.9201598763465881,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.01858154498040676,
+       "negative": 0.055998943746089935,
+       "positive": 0.005259614437818527
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1606709093,
+       "nanoseconds": 170000000
+     },
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "negative": 0.003420324297621846,
+       "mixed": 0.00005445823262562044,
+       "neutral": 0.9751620292663574,
+       "positive": 0.021363230422139168
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 30
+     }
+   },
+   {
+     "languageCode": "en",
+     "tsDetail": {
+       "day": 30,
+       "month": 10,
+       "year": 2020
+     },
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606706064,
+       "nanoseconds": 168000000
+     },
+     "sentimentScore": {
+       "positive": 0.24151422083377838,
+       "sentiment": "NEUTRAL",
+       "negative": 0.07478880882263184,
+       "neutral": 0.6780895590782166,
+       "mixed": 0.005607375875115395
+     }
+   },
+   {
+     "languageCode": "en",
+     "tsDetail": {
+       "day": 26,
+       "month": 10,
+       "year": 2020
+     },
+     "ts": {
+       "seconds": 1606433575,
+       "nanoseconds": 149000000
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "negative": 0.0016924676019698381,
+       "neutral": 0.7402821779251099,
+       "positive": 0.25697508454322815,
+       "mixed": 0.0010502777295187116
+     }
+   },
+   {
+     "languageCode": "en",
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 26
+     },
+     "ts": {
+       "seconds": 1606434369,
+       "nanoseconds": 156000000
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "neutral": 0.5999737977981567,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.00026713236002251506,
+       "positive": 0.39840784668922424,
+       "negative": 0.0013511884026229382
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "day": 30,
+       "year": 2020,
+       "month": 10
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "neutral": 0.09747467190027237,
+       "positive": 0.000997215392999351,
+       "sentiment": "NEGATIVE",
+       "mixed": 0.00026999591500498354,
+       "negative": 0.9012580513954163
+     },
+     "ts": {
+       "seconds": 1606709489,
+       "nanoseconds": 170000000
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1605188913,
+       "nanoseconds": 112000000
+     },
+     "tsDetail": {
+       "day": 12,
+       "month": 10,
+       "year": 2020
+     },
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "positive": 0.00024741943343542516,
+       "negative": 0.0008888143347576261,
+       "mixed": 0.000012604348739841953,
+       "neutral": 0.9988511800765991
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606709555,
+       "nanoseconds": 172000000
+     },
+     "tsDetail": {
+       "month": 10,
+       "day": 30,
+       "year": 2020
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "positive": 0.01476949080824852,
+       "mixed": 0.2672131359577179,
+       "neutral": 0.05372673273086548,
+       "sentiment": "NEGATIVE",
+       "negative": 0.6642906665802002
+     }
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606428239,
+       "nanoseconds": 142000000
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "positive": 0.639841616153717,
+       "sentiment": "POSITIVE",
+       "neutral": 0.28013715147972107,
+       "mixed": 0.049651745706796646,
+       "negative": 0.030369555577635765
+     },
+     "tsDetail": {
+       "day": 26,
+       "month": 10,
+       "year": 2020
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1604873391,
+       "nanoseconds": 96000000
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "neutral": 0.007091035135090351,
+       "positive": 0.9926927089691162,
+       "sentiment": "POSITIVE",
+       "negative": 0.00015612035349477082,
+       "mixed": 0.00006008445780025795
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 8,
+       "month": 10
+     },
+     "languageCode": "en"
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606433630,
+       "nanoseconds": 151000000
+     },
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 10,
+       "day": 26,
+       "year": 2020
+     },
+     "sentimentScore": {
+       "neutral": 0.9966641068458557,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.000005034508376411395,
+       "negative": 0.0011390561703592539,
+       "positive": 0.002191816456615925
+     }
+   },
+   {
+     "sentimentScore": {
+       "neutral": 0.24280713498592377,
+       "positive": 0.028722863644361496,
+       "sentiment": "NEGATIVE",
+       "negative": 0.6584703326225281,
+       "mixed": 0.06999960541725159
+     },
+     "ts": {
+       "seconds": 1606796060,
+       "nanoseconds": 184000000
+     },
+     "tsDetail": {
+       "day": 1,
+       "month": 11,
+       "year": 2020
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en"
+   },
+   {
+     "sentimentScore": {
+       "mixed": 0.0011783302761614323,
+       "neutral": 0.9307214021682739,
+       "negative": 0.03366219997406006,
+       "sentiment": "NEUTRAL",
+       "positive": 0.03443807736039162
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606887845,
+       "nanoseconds": 202000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 2,
+       "month": 11
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 20
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "positive": 0.00024359053350053728,
+       "mixed": 0.00002207078978244681,
+       "neutral": 0.9993009567260742,
+       "negative": 0.00043335286318324506,
+       "sentiment": "NEUTRAL"
+     },
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1605832499,
+       "nanoseconds": 125000000
+     }
+   },
+   {
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "year": 2020,
+       "day": 20,
+       "month": 10
+     },
+     "sentimentScore": {
+       "positive": 0.0014648132491856813,
+       "neutral": 0.9976977705955505,
+       "sentiment": "NEUTRAL",
+       "negative": 0.0008069564355537295,
+       "mixed": 0.000030495746614178643
+     },
+     "ts": {
+       "seconds": 1605851020,
+       "nanoseconds": 128000000
+     }
+   },
+   {
+     "sentimentScore": {
+       "sentiment": "POSITIVE",
+       "negative": 0.022779986262321472,
+       "neutral": 0.16743525862693787,
+       "mixed": 0.10560239106416702,
+       "positive": 0.7041823267936707
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 30
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606710517,
+       "nanoseconds": 178000000
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1605488481,
+       "nanoseconds": 120000000
+     },
+     "sentimentScore": {
+       "neutral": 0.3044624924659729,
+       "sentiment": "POSITIVE",
+       "positive": 0.6620919108390808,
+       "negative": 0.010901370085775852,
+       "mixed": 0.02254425175487995
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "tsDetail": {
+       "day": 16,
+       "month": 10,
+       "year": 2020
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "sentimentScore": {
+       "neutral": 0.9966717958450317,
+       "sentiment": "NEUTRAL",
+       "negative": 0.00010363152250647545,
+       "mixed": 0.0000760242182877846,
+       "positive": 0.0031484549399465322
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 30
+     },
+     "ts": {
+       "seconds": 1606704939,
+       "nanoseconds": 162000000
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "day": 25,
+       "year": 2020,
+       "month": 10
+     },
+     "sentimentScore": {
+       "positive": 0.0013364906189963222,
+       "neutral": 0.9603956937789917,
+       "mixed": 0.004853356163948774,
+       "sentiment": "NEUTRAL",
+       "negative": 0.03341446444392204
+     },
+     "ts": {
+       "seconds": 1606266919,
+       "nanoseconds": 130000000
+     },
+     "languageCode": "en"
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1604988741,
+       "nanoseconds": 108000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 10,
+       "month": 10
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "neutral": 0.7538837194442749,
+       "negative": 0.0017602639272809029,
+       "mixed": 0.00010976664634654298,
+       "sentiment": "NEUTRAL",
+       "positive": 0.24424633383750916
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1606433654,
+       "nanoseconds": 151000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 26
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "positive": 0.002658239332959056,
+       "negative": 0.006205394398421049,
+       "sentiment": "NEUTRAL",
+       "neutral": 0.991104006767273,
+       "mixed": 0.0000324093816743698
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606428862,
+       "nanoseconds": 142000000
+     },
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 10,
+       "day": 26,
+       "year": 2020
+     },
+     "sentimentScore": {
+       "negative": 0.1265847086906433,
+       "neutral": 0.7584038376808167,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.049959391355514526,
+       "positive": 0.06505206972360611
+     }
+   },
+   {
+     "languageCode": "en",
+     "tsDetail": {
+       "year": 2020,
+       "day": 25,
+       "month": 10
+     },
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606267000,
+       "nanoseconds": 130000000
+     },
+     "sentimentScore": {
+       "positive": 0.0030686010140925646,
+       "neutral": 0.3547828793525696,
+       "sentiment": "NEGATIVE",
+       "mixed": 0.0007071486325003207,
+       "negative": 0.6414413452148438
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "neutral": 0.8212752342224121,
+       "mixed": 0.00038332617259584367,
+       "positive": 0.17657822370529175,
+       "negative": 0.001763243111781776
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1605764875,
+       "nanoseconds": 122000000
+     },
+     "tsDetail": {
+       "day": 19,
+       "month": 10,
+       "year": 2020
+     }
+   },
+   {
+     "sentimentScore": {
+       "mixed": 0.000345213629771024,
+       "positive": 0.0033369087614119053,
+       "neutral": 0.9881948232650757,
+       "sentiment": "NEUTRAL",
+       "negative": 0.008123135194182396
+     },
+     "tsDetail": {
+       "month": 11,
+       "year": 2020,
+       "day": 1
+     },
+     "ts": {
+       "seconds": 1606796048,
+       "nanoseconds": 184000000
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "ts": {
+       "seconds": 1606709647,
+       "nanoseconds": 175000000
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "sentimentScore": {
+       "sentiment": "NEGATIVE",
+       "mixed": 0.017425693571567535,
+       "neutral": 0.06746577471494675,
+       "positive": 0.01249349769204855,
+       "negative": 0.9026151299476624
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 30
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "tsDetail": {
+       "year": 2020,
+       "day": 26,
+       "month": 10
+     },
+     "ts": {
+       "seconds": 1606433812,
+       "nanoseconds": 153000000
+     },
+     "sentimentScore": {
+       "sentiment": "POSITIVE",
+       "mixed": 0.0015979019226506352,
+       "neutral": 0.2980312705039978,
+       "positive": 0.6672341823577881,
+       "negative": 0.03313668817281723
+     }
+   },
+   {
+     "sentimentScore": {
+       "neutral": 0.9912260174751282,
+       "sentiment": "NEUTRAL",
+       "positive": 0.008357533253729343,
+       "negative": 0.0003720989916473627,
+       "mixed": 0.00004433057256392203
+     },
+     "ts": {
+       "seconds": 1605571721,
+       "nanoseconds": 122000000
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 17
+     }
+   },
+   {
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "negative": 0.004682854749262333,
+       "positive": 0.0006817526882514358,
+       "mixed": 0.000020154906451352872,
+       "neutral": 0.9946152567863464
+     },
+     "ts": {
+       "seconds": 1606704885,
+       "nanoseconds": 162000000
+     },
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 30
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "tsDetail": {
+       "day": 2,
+       "year": 2020,
+       "month": 11
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606951217,
+       "nanoseconds": 209000000
+     },
+     "sentimentScore": {
+       "mixed": 0.000053238360123941675,
+       "sentiment": "NEUTRAL",
+       "negative": 0.0032656376715749502,
+       "neutral": 0.9964046478271484,
+       "positive": 0.00027649226831272244
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606877969,
+       "nanoseconds": 188000000
+     },
+     "languageCode": "en",
+     "tsDetail": {
+       "month": 11,
+       "year": 2020,
+       "day": 2
+     },
+     "sentimentScore": {
+       "negative": 0.0017543883295729756,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.000010678154467314016,
+       "positive": 0.00013958047202322632,
+       "neutral": 0.9980953335762024
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1606948225,
+       "nanoseconds": 208000000
+     },
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "mixed": 0.0002153407986043021,
+       "negative": 0.05103038623929024,
+       "positive": 0.0075907353311777115,
+       "neutral": 0.9411635994911194
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 2,
+       "month": 11
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 6
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "sentimentScore": {
+       "sentiment": "POSITIVE",
+       "negative": 0.0007594235357828438,
+       "positive": 0.811242401599884,
+       "neutral": 0.18781544268131256,
+       "mixed": 0.00018271464796271175
+     },
+     "ts": {
+       "seconds": 1604625583,
+       "nanoseconds": 92000000
+     }
+   },
+   {
+     "tsDetail": {
+       "month": 10,
+       "year": 2020,
+       "day": 26
+     },
+     "sentimentScore": {
+       "neutral": 0.884667158126831,
+       "positive": 0.11003126949071884,
+       "negative": 0.005253319162875414,
+       "mixed": 0.0000481978349853307,
+       "sentiment": "NEUTRAL"
+     },
+     "ts": {
+       "seconds": 1606433228,
+       "nanoseconds": 147000000
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en"
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606624067,
+       "nanoseconds": 160000000
+     },
+     "tsDetail": {
+       "month": 10,
+       "day": 29,
+       "year": 2020
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "negative": 0.0018072997918352485,
+       "mixed": 0.0003080443711951375,
+       "sentiment": "POSITIVE",
+       "neutral": 0.10641000419855118,
+       "positive": 0.8914746642112732
+     }
+   },
+   {
+     "ts": {
+       "seconds": 1606709567,
+       "nanoseconds": 173000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 30,
+       "month": 10
+     },
+     "sentimentScore": {
+       "neutral": 0.02404392883181572,
+       "positive": 0.969468355178833,
+       "sentiment": "POSITIVE",
+       "mixed": 0.0007476260652765632,
+       "negative": 0.005740076303482056
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en"
+   },
+   {
+     "sentimentScore": {
+       "neutral": 0.7726652026176453,
+       "positive": 0.06692769378423691,
+       "mixed": 0.15926577150821686,
+       "sentiment": "NEUTRAL",
+       "negative": 0.0011413267347961664
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 2,
+       "month": 11
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606943726,
+       "nanoseconds": 202000000
+     }
+   },
+   {
+     "tsDetail": {
+       "day": 30,
+       "year": 2020,
+       "month": 10
+     },
+     "ts": {
+       "seconds": 1606709692,
+       "nanoseconds": 176000000
+     },
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "sentimentScore": {
+       "mixed": 0.09942471981048584,
+       "sentiment": "NEUTRAL",
+       "neutral": 0.6457209587097168,
+       "negative": 0.1499050110578537,
+       "positive": 0.10494931042194366
+     }
+   },
+   {
+     "tsDetail": {
+       "day": 19,
+       "month": 10,
+       "year": 2020
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1605829331,
+       "nanoseconds": 124000000
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "positive": 0.3007812201976776,
+       "mixed": 0.021589063107967377,
+       "negative": 0.06621704995632172,
+       "sentiment": "NEUTRAL",
+       "neutral": 0.6114126443862915
+     }
+   },
+   {
+     "languageCode": "en",
+     "sentimentScore": {
+       "positive": 0.6173266172409058,
+       "mixed": 0.08131705969572067,
+       "neutral": 0.21044260263442993,
+       "sentiment": "POSITIVE",
+       "negative": 0.09091371297836304
+     },
+     "ts": {
+       "seconds": 1606709651,
+       "nanoseconds": 175000000
+     },
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 30
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "positive": 0.09343699365854263,
+       "neutral": 0.30268946290016174,
+       "negative": 0.5808967351913452,
+       "sentiment": "NEGATIVE",
+       "mixed": 0.022976839914917946
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606375886,
+       "nanoseconds": 141000000
+     },
+     "tsDetail": {
+       "day": 26,
+       "month": 10,
+       "year": 2020
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1606796064,
+       "nanoseconds": 184000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 1,
+       "month": 11
+     },
+     "sentimentScore": {
+       "mixed": 0.0007701448630541563,
+       "positive": 0.003011936554685235,
+       "neutral": 0.978101372718811,
+       "sentiment": "NEUTRAL",
+       "negative": 0.01811659336090088
+     },
+     "languageCode": "en"
+   },
+   {
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "month": 11,
+       "day": 1,
+       "year": 2020
+     },
+     "ts": {
+       "seconds": 1606796066,
+       "nanoseconds": 185000000
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "negative": 0.0026953434571623802,
+       "positive": 0.0025777246337383986,
+       "mixed": 0.0000758516980567947,
+       "neutral": 0.9946510195732117,
+       "sentiment": "NEUTRAL"
+     }
+   },
+   {
+     "languageCode": "en",
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 26
+     },
+     "ts": {
+       "seconds": 1606432947,
+       "nanoseconds": 145000000
+     },
+     "sentimentScore": {
+       "mixed": 0.0001300331059610471,
+       "neutral": 0.5576198101043701,
+       "sentiment": "NEUTRAL",
+       "positive": 0.44040602445602417,
+       "negative": 0.0018442000728100538
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "channelId": "CL782373R",
+     "tsDetail": {
+       "year": 2020,
+       "day": 13,
+       "month": 10
+     },
+     "ts": {
+       "seconds": 1605237400,
+       "nanoseconds": 113000000
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "positive": 0.0113747613504529,
+       "mixed": 0.0003506561042740941,
+       "neutral": 0.8927906155586243,
+       "negative": 0.09548391401767731
+     }
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606694770,
+       "nanoseconds": 161000000
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "mixed": 0.0001572244509588927,
+       "sentiment": "NEUTRAL",
+       "neutral": 0.9956219792366028,
+       "positive": 0.0040603941306471825,
+       "negative": 0.00016033262363635004
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 30,
+       "month": 10
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "tsDetail": {
+       "month": 11,
+       "year": 2020,
+       "day": 2
+     },
+     "sentimentScore": {
+       "neutral": 0.16519048810005188,
+       "positive": 0.8342397212982178,
+       "negative": 0.0005236509023234248,
+       "mixed": 0.00004607899609254673,
+       "sentiment": "POSITIVE"
+     },
+     "ts": {
+       "seconds": 1606947590,
+       "nanoseconds": 208000000
+     }
+   },
+   {
+     "tsDetail": {
+       "year": 2020,
+       "day": 15,
+       "month": 10
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "mixed": 0.0002239480963908136,
+       "neutral": 0.7583668231964111,
+       "negative": 0.0043198345229029655,
+       "sentiment": "NEUTRAL",
+       "positive": 0.23708944022655487
+     },
+     "ts": {
+       "seconds": 1605481456,
+       "nanoseconds": 119000000
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 15
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "neutral": 0.4679969549179077,
+       "positive": 0.0032314914278686047,
+       "negative": 0.5272250175476074,
+       "sentiment": "NEGATIVE",
+       "mixed": 0.0015465333126485348
+     },
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1605481412,
+       "nanoseconds": 118000000
+     }
+   },
+   {
+     "channelId": "CL782373R",
+     "ts": {
+       "seconds": 1605126034,
+       "nanoseconds": 111000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 11
+     },
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "positive": 0.019301386550068855,
+       "neutral": 0.9713810682296753,
+       "mixed": 0.00007573907350888476,
+       "negative": 0.009241797029972076
+     },
+     "languageCode": "en"
+   },
+   {
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "neutral": 0.9938451051712036,
+       "negative": 0.00020252946706023067,
+       "positive": 0.00573313282802701,
+       "mixed": 0.00021934691176284105
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606694770,
+       "nanoseconds": 161000000
+     },
+     "tsDetail": {
+       "day": 30,
+       "year": 2020,
+       "month": 10
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "ts": {
+       "seconds": 1606943759,
+       "nanoseconds": 203000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "month": 11,
+       "day": 2
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "negative": 0.0034666131250560284,
+       "positive": 0.009821574203670025,
+       "neutral": 0.9866735935211182,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.00003821753489319235
+     }
+   },
+   {
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606709541,
+       "nanoseconds": 172000000
+     },
+     "tsDetail": {
+       "day": 30,
+       "year": 2020,
+       "month": 10
+     },
+     "channelId": "CL782373R",
+     "sentimentScore": {
+       "sentiment": "NEUTRAL",
+       "mixed": 0.010617895051836967,
+       "neutral": 0.9069088697433472,
+       "positive": 0.04108026623725891,
+       "negative": 0.041392967104911804
+     }
+   },
+   {
+     "sentimentScore": {
+       "neutral": 0.879234254360199,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.013725240714848042,
+       "positive": 0.0526411272585392,
+       "negative": 0.054399315267801285
+     },
+     "ts": {
+       "seconds": 1606273136,
+       "nanoseconds": 135000000
+     },
+     "tsDetail": {
+       "day": 25,
+       "year": 2020,
+       "month": 10
+     },
+     "languageCode": "en",
+     "channelId": "CL782373R"
+   },
+   {
+     "tsDetail": {
+       "year": 2020,
+       "month": 10,
+       "day": 25
+     },
+     "languageCode": "en",
+     "sentimentScore": {
+       "negative": 0.0054354239255189896,
+       "neutral": 0.846964955329895,
+       "sentiment": "NEUTRAL",
+       "mixed": 0.0000784292133175768,
+       "positive": 0.14752118289470673
+     },
+     "ts": {
+       "seconds": 1606270232,
+       "nanoseconds": 134000000
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "tsDetail": {
+       "month": 10,
+       "day": 26,
+       "year": 2020
+     },
+     "languageCode": "en",
+     "ts": {
+       "seconds": 1606433595,
+       "nanoseconds": 150000000
+     },
+     "sentimentScore": {
+       "neutral": 0.14500053226947784,
+       "positive": 0.8303935527801514,
+       "sentiment": "POSITIVE",
+       "negative": 0.010211784392595291,
+       "mixed": 0.014394216239452362
+     },
+     "channelId": "CL782373R"
+   },
+   {
+     "channelId": "CL782373R",
+     "languageCode": "en",
+     "sentimentScore": {
+       "negative": 0.001133254263550043,
+       "positive": 0.9591366052627563,
+       "neutral": 0.039699677377939224,
+       "sentiment": "POSITIVE",
+       "mixed": 0.000030511495424434543
+     },
+     "ts": {
+       "seconds": 1604978093,
+       "nanoseconds": 104000000
+     },
+     "tsDetail": {
+       "year": 2020,
+       "day": 10,
+       "month": 10
+     }
+   }
+ ]
