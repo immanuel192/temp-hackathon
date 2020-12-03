@@ -54,15 +54,14 @@ export class FireStore implements IFireStore {
     });
   }
 
-  async addMessageScore(sentimentScore: IComprehendScore, channelId: string) {
-    const date = new Date();
+  async addMessageScore(sentimentScore: IComprehendScore, channelId: string, ts: Date) {
     const record: IMessageSentimentRecord = {
-      ts: date,
+      ts,
       // for easy data query
       tsDetail: {
-        year: date.getUTCFullYear(),
-        month: date.getUTCMonth(),
-        day: date.getUTCDate(),
+        year: ts.getUTCFullYear(),
+        month: ts.getUTCMonth(),
+        day: ts.getUTCDate(),
       },
       channelId,
       sentimentScore,

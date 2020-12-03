@@ -35,7 +35,7 @@ export class ChannelCrawlExecutor {
       const score = await this.comprehend.analyse([message.text]);
 
       console.log(`Adding scpre for ${message.text} as ${score.sentiment}`);
-      return this.firestore.addMessageScore(score, channelId);
+      return this.firestore.addMessageScore(score, channelId, new Date(message.ts));
     }, {
       concurrency: 5,
     });
