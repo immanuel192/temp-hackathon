@@ -14,8 +14,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "3",
-         "month": "11",
+         "day": "1",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -34,8 +34,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "3",
-         "month": "10",
+         "day": "1",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -54,8 +54,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "13",
-         "month": "10",
+         "day": "1",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -74,8 +74,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "3",
-         "month": "11",
+         "day": "1",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -94,7 +94,7 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "23",
+         "day": "1",
          "month": "12",
          "year": "2020"
       }
@@ -114,8 +114,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "3",
-         "month": "11",
+         "day": "1",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -134,8 +134,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "3",
-         "month": "11",
+         "day": "2",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -154,8 +154,8 @@
       "sentiment": "",
       "languageCode": "en",
       "tsDetail": {
-         "day": "3",
-         "month": "11",
+         "day": "2",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -175,7 +175,7 @@
       "languageCode": "en",
       "tsDetail": {
          "day": "3",
-         "month": "11",
+         "month": "12",
          "year": "2020"
       }
    },
@@ -195,7 +195,47 @@
       "languageCode": "en",
       "tsDetail": {
          "day": "3",
-         "month": "11",
+         "month": "12",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-10",
+      "ts": "2020-12-04 02:02:04",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.1,
+         "positive": 0.8,
+         "neutral": 0.1,
+         "negative": 0.00000000,
+         "sentiment": "POSITIVE"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "4",
+         "month": "12",
+         "year": "2020"
+      }
+   },
+   {
+      "id": "xyz-10",
+      "ts": "2020-12-05 02:02:04",
+      "channelName": "Sample Channel",
+      "channelId": "123",
+      "sentimentScore": {
+         "mixed": 0.1,
+         "positive": 0,
+         "neutral": 0.1,
+         "negative": 0.8,
+         "sentiment": "NEGATIVE"
+      },
+      "sentiment": "",
+      "languageCode": "en",
+      "tsDetail": {
+         "day": "5",
+         "month": "12",
          "year": "2020"
       }
    }
