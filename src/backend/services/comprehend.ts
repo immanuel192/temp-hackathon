@@ -7,19 +7,18 @@ config.update({ region: 'eu-west-1' }); // Whatever region for now.
 export default class AWSComprehend implements IAWSComprehend {
   private comprehend: Comprehend
 
-  constructor(props) {
-    // @ts-ignore
-    super(props);
+  constructor() {
     this.comprehend = new Comprehend()
   }
 
-
+  // @ts-ignore
   public analyse(text: string[]): Promise<IComprehendScore> {
-    return Promise.resolve({
-      mixed: 0.1,
-      positive: 0,
-      neutral: 0,
-      negative: 0,
-    });
+    this.comprehend.batchDetectSentiment({ TextList: text, LanguageCode: 'en' }, (err, data) => {
+      if (err) {
+        console.error('hmm something went wrong', err)
+      } else {
+        console.log(data.ResultList)
+      }
+    })
   }
 }
