@@ -242,7 +242,6 @@ export default {
   z-index: 10;
   margin-top: -50px;
   background: #f6f6f6;
-  height: 100vh;
   border-radius: 4px;
   padding: 36px 24px;
   width: 80%;
@@ -270,7 +269,12 @@ export default {
   }
 
   .progress-chart {
-    width: 350px;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  .polar-chart {
     background: #ffffff;
     border-radius: 4px;
     padding: 20px;
