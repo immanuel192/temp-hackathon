@@ -1,0 +1,2144 @@
+[
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "thanks",
+    "ts": 1606982300084.7002,
+    "d": "2020-12-03T07:58:20.084Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Trung is busy at 8pm, so 9pm then",
+    "ts": 1606982288084.5,
+    "d": "2020-12-03T07:58:08.084Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "can we change to 9pm please?",
+    "ts": 1606982240084.1,
+    "d": "2020-12-03T07:57:20.084Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Changed our sync up call to 8pm",
+    "ts": 1606981734083.3,
+    "d": "2020-12-03T07:48:54.083Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "please let me know if the time doesn’t work for you",
+    "ts": 1606980447082.5,
+    "d": "2020-12-03T07:27:27.082Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I’ve sent out an invite for sync up at 7",
+    "ts": 1606980431082,
+    "d": "2020-12-03T07:27:11.082Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "ok next step is to build the command line to run the script in local to demo",
+    "ts": 1606977906081.3,
+    "d": "2020-12-03T06:45:06.081Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": ".",
+    "ts": 1606977663080.7,
+    "d": "2020-12-03T06:41:03.080Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "enough for you to pull and draw",
+    "ts": 1606977508080.3,
+    "d": "2020-12-03T06:38:28.080Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "",
+    "ts": 1606977500080,
+    "d": "2020-12-03T06:38:20.080Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "nice",
+    "ts": 1606977497079.9001,
+    "d": "2020-12-03T06:38:17.079Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UNERRH1ST> the data in messagessentiments collection is ready for you",
+    "ts": 1606977475079.7,
+    "d": "2020-12-03T06:37:55.079Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "I will do some research",
+    "ts": 1606977413079.2,
+    "d": "2020-12-03T06:36:53.079Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "I feel like it needs to be in unicode",
+    "ts": 1606977315078.5999,
+    "d": "2020-12-03T06:35:15.078Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "But :+1 : is slack format",
+    "ts": 1606977306078.2002,
+    "d": "2020-12-03T06:35:06.078Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "cleaning up",
+    "ts": 1606977016077.7,
+    "d": "2020-12-03T06:30:16.077Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "inserting data into wrong collection",
+    "ts": 1606977012077.5,
+    "d": "2020-12-03T06:30:12.077Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I did very big mistaken",
+    "ts": 1606977007077.3,
+    "d": "2020-12-03T06:30:07.077Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "but give me 5 mins before running in your local",
+    "ts": 1606976998076.9,
+    "d": "2020-12-03T06:29:58.076Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "to see the result",
+    "ts": 1606976975076.6,
+    "d": "2020-12-03T06:29:35.076Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "run in your local with\n```ts-node -r ts-node/register/transpile-only src/backend/app.ts --channel=G01F74EUWA3```",
+    "ts": 1606976973076.2998,
+    "d": "2020-12-03T06:29:33.076Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://github.com/immanuel192/temp-hackathon/pull/8>",
+    "ts": 1606976958076,
+    "d": "2020-12-03T06:29:18.076Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "try with :sob:, :disappointed: , :smile: to see what the results are",
+    "ts": 1606976779075.8,
+    "d": "2020-12-03T06:26:19.075Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "that’s the emoticon",
+    "ts": 1606976751075.3,
+    "d": "2020-12-03T06:25:51.075Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "which is the noise",
+    "ts": 1606976705075.0999,
+    "d": "2020-12-03T06:25:05.075Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "the actual message value is `:+1:`",
+    "ts": 1606976702074.9,
+    "d": "2020-12-03T06:25:02.074Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "eg\n```Adding scpre for :+1: as NEUTRAL```",
+    "ts": 1606976688074.5,
+    "d": "2020-12-03T06:24:48.074Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "what noise?",
+    "ts": 1606976625074.3,
+    "d": "2020-12-03T06:23:45.074Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> need to think how to remove noise\n\n```dding scpre for yes as MIXED\nAdding scpre for can we disable eslint? as NEUTRAL\nAdding scpre for <@UMJ2YJPK9> <@UM4P8U135> please rebase master to your branch as NEUTRAL\nAdding scpre for no problem as POSITIVE\nAdding scpre for back from lunch as NEUTRAL\nAdding scpre for fak why it doesnot allow me to add as NEGATIVE\nAdding scpre for ```[\n  {\n    id: 'C02FSEH6Q',\n    name: 'announcements-global',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: true,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'C93J69LCE',\n    name: 'announcements-syd',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: true,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'CL782373R',\n    name: 'eng-all',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: true,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'C01EK6UN9NG',\n    name: 'hackathon-2020',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: false,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'G01F74EUWA3',\n    name: 'sentiminder-hackathon-2020',\n    is_channel: false,\n    is_group: true,\n    is_im: false,\n    is_member: true,\n    is_private: true,\n    is_mpim: false,\n    last_read: '1606886139.024300'\n  }\n]``` as NEGATIVE\nAdding scpre for I will setup CI/CD as NEUTRAL\nAdding scpre for Created firebase account for <@UM4P8U135> <@UNERRH1ST> and <@UMJ2YJPK9> as NEUTRAL\nAdding scpre for you guys should receive an email for now as NEUTRAL\nAdding scpre for the frontend will be deployed to firebase hosting service as NEUTRAL\nAdding scpre for the domain should be &lt;<https://dev-sentiminder.web.app>&gt; as NEUTRAL\nAdding scpre for this is curent repo as NEUTRAL\nAdding scpre for &lt;<https://github.com/immanuel192/temp-hackathon>&gt; as NEUTRAL\nAdding scpre for tmr when officially start, I will clone code to new repo and turn this repo to private as NEUTRAL\nAdding scpre for :smiling_imp: as NEUTRAL\nAdding scpre for :+1: as NEUTRAL\nAdding scpre for &lt;<https://travis-ci.com/github/immanuel192/temp-hackathon/jobs/452270465>&gt; as NEUTRAL\nAdding scpre for this one works for now as POSITIVE\nAdding scpre for <@UM4P8U135> <@UMJ2YJPK9> where do you want to put the backend code? for POC not sure if you want to have separate repo for backend or can use same repo with frontend as NEUTRAL\nAdding scpre for in my opinion, it is just a script as NEUTRAL\nAdding scpre for to run as MIXED\nAdding scpre for :slightly_smiling_face: as NEUTRAL\nAdding scpre for Trung do u wanna go on a google hangout later with me? as NEUTRAL\nAdding scpre for just want to catch up where we are up to in terms of the script as NEUTRAL\nAdding scpre for we can do it after our sync up at 10:30 as NEUTRAL\nAdding scpre for yeah as NEUTRAL```",
+    "ts": 1606976520073.8,
+    "d": "2020-12-03T06:22:00.073Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "ok",
+    "ts": 1606976223073.2998,
+    "d": "2020-12-03T06:17:03.073Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "Thats what aws calculates for you",
+    "ts": 1606976057071.8,
+    "d": "2020-12-03T06:14:17.071Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "i prefer keeping everything comprehend giving us",
+    "ts": 1606976049071.5,
+    "d": "2020-12-03T06:14:09.071Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "does it hurt to have it?",
+    "ts": 1606976034070.8,
+    "d": "2020-12-03T06:13:54.070Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "I’ve been annoying Alex G &amp; Ernie all afternoon :slightly_smiling_face: Just to buy us some extra time! Or rather – them less time!",
+    "ts": 1606976029070.6,
+    "d": "2020-12-03T06:13:49.070Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "the client can aggregate data right?",
+    "ts": 1606976016070,
+    "d": "2020-12-03T06:13:36.070Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "do we really need to have\n```sentiment: \"POSITIVE\" | \"NEGATIVE\" | \"NEUTRAL\" | \"MIXED\" | string;```\n<@UMJ2YJPK9>",
+    "ts": 1606975997069,
+    "d": "2020-12-03T06:13:17.069Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "Noice",
+    "ts": 1606975596068.5999,
+    "d": "2020-12-03T06:06:36.068Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "no more issue",
+    "ts": 1606975571068.4,
+    "d": "2020-12-03T06:06:11.068Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "discussed with Thao",
+    "ts": 1606975568068.1,
+    "d": "2020-12-03T06:06:08.068Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "What is it?",
+    "ts": 1606975134067.9,
+    "d": "2020-12-03T05:58:54.067Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I think we have some issue",
+    "ts": 1606975082067.3,
+    "d": "2020-12-03T05:58:02.067Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UMJ2YJPK9> hey",
+    "ts": 1606975079067.1,
+    "d": "2020-12-03T05:57:59.067Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "didnt know you’re a designer as well lol",
+    "ts": 1606970795064.3,
+    "d": "2020-12-03T04:46:35.064Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "First logo draft. Feedbacks welcome",
+    "ts": 1606970648063.6,
+    "d": "2020-12-03T04:44:08.063Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "I’ll be offline for 20 minutes",
+    "ts": 1606970587063.4001,
+    "d": "2020-12-03T04:43:07.063Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "haiz someone removed my eslint file. now no more auto fix code in vscode",
+    "ts": 1606969805060.7,
+    "d": "2020-12-03T04:30:05.060Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "wow looks fancy",
+    "ts": 1606969558059.0999,
+    "d": "2020-12-03T04:25:58.059Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "Second cut – awaiting Thao’s logo!",
+    "ts": 1606968282058.2,
+    "d": "2020-12-03T04:04:42.058Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "we may do that afterwards",
+    "ts": 1606967991058,
+    "d": "2020-12-03T03:59:51.058Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "let me know if we want to use any other feature from comprehend, for example grabbing key phrases/words from sentences -&gt; along with the sentiment",
+    "ts": 1606967876057.2,
+    "d": "2020-12-03T03:57:56.057Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "<https://aws.amazon.com/getting-started/hands-on/analyze-sentiment-comprehend/>",
+    "ts": 1606967819056.4001,
+    "d": "2020-12-03T03:56:59.056Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://github.com/immanuel192/temp-hackathon/pull/6/>",
+    "ts": 1606966915056.2,
+    "d": "2020-12-03T03:41:55.056Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> you can pull code in master branch for now. can fetch slack messages onward and backward",
+    "ts": 1606966913056,
+    "d": "2020-12-03T03:41:53.056Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "the “RFID covid sign on” team did the survey this morning was brilliant too",
+    "ts": 1606966529055.5,
+    "d": "2020-12-03T03:35:29.055Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I’m doing some reading so that I can work with Simon later on that",
+    "ts": 1606966497054.8,
+    "d": "2020-12-03T03:34:57.054Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "Nice one!",
+    "ts": 1606966446054.3,
+    "d": "2020-12-03T03:34:06.054Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@U1TA9GA4F>\n```alex.kok\n  14:31\n\nNo, just checking in with you. Make sure you and team refine your marketing pitch. I saw another team and they've got a good sales pitch (edited) ```",
+    "ts": 1606966348054.1,
+    "d": "2020-12-03T03:32:28.054Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "let me check comprehend's max text length limitation",
+    "ts": 1606965773053.9,
+    "d": "2020-12-03T03:22:53.053Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "<https://github.com/immanuel192/temp-hackathon/pull/5/>",
+    "ts": 1606965636052.8,
+    "d": "2020-12-03T03:20:36.052Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "once I finish my part you can continue",
+    "ts": 1606965563052.5999,
+    "d": "2020-12-03T03:19:23.052Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "you can work with Simon if you want",
+    "ts": 1606965552052.3,
+    "d": "2020-12-03T03:19:12.052Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> wait for me 30 mins",
+    "ts": 1606965547052,
+    "d": "2020-12-03T03:19:07.052Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "i’ll just do yolo merge then",
+    "ts": 1606965393051.7002,
+    "d": "2020-12-03T03:16:33.051Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "okay lol",
+    "ts": 1606965381051.3,
+    "d": "2020-12-03T03:16:21.051Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "Just merge",
+    "ts": 1606965370051.1,
+    "d": "2020-12-03T03:16:10.051Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "No need code review <@UNERRH1ST> ",
+    "ts": 1606965365050.9,
+    "d": "2020-12-03T03:16:05.050Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "So, for backend\n• Jason builds the part that talks to Comprehend\n• Trung builds the script to fetch messages periodically\n• I writes a script to fetch historical data -&gt; feed into our project to see if there’s anything interesting",
+    "ts": 1606964396048.5999,
+    "d": "2020-12-03T02:59:56.048Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "<https://github.com/immanuel192/temp-hackathon/pull/3>\nthis one is ready for review",
+    "ts": 1606964338047.4,
+    "d": "2020-12-03T02:58:58.047Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "can we remove travis too?",
+    "ts": 1606963928041.9,
+    "d": "2020-12-03T02:52:08.041Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "cool works",
+    "ts": 1606963771041.3,
+    "d": "2020-12-03T02:49:31.041Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "",
+    "ts": 1606963770041.1,
+    "d": "2020-12-03T02:49:30.041Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "i think it can cover our usage",
+    "ts": 1606963357040.8,
+    "d": "2020-12-03T02:42:37.040Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "do you like the style of chart.js (we can customise the chart)\n<https://www.chartjs.org/samples/latest/>",
+    "ts": 1606963337040.4001,
+    "d": "2020-12-03T02:42:17.040Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "i see",
+    "ts": 1606963314039.9001,
+    "d": "2020-12-03T02:41:54.039Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "logo will change",
+    "ts": 1606963090039.7,
+    "d": "2020-12-03T02:38:10.039Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "Not sure yet haha",
+    "ts": 1606963079039.5,
+    "d": "2020-12-03T02:37:59.039Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "what is trend line for positive",
+    "ts": 1606962988039.3,
+    "d": "2020-12-03T02:36:28.039Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "nav and header looks good to me",
+    "ts": 1606962916038.9,
+    "d": "2020-12-03T02:35:16.038Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "",
+    "ts": 1606962595038.5,
+    "d": "2020-12-03T02:29:55.038Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "Feedback welcome for first cut – to get Sarah started\n\nNot happy with the graph yet, but nav &amp; header seems ok to me, what do you  think?",
+    "ts": 1606962590038.4,
+    "d": "2020-12-03T02:29:50.038Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ".gitignore only works with untracked files",
+    "ts": 1606962473037.7,
+    "d": "2020-12-03T02:27:53.037Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "run this\n```git update-index --assume-unchanged .env```",
+    "ts": 1606962458037.3,
+    "d": "2020-12-03T02:27:38.037Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "`.env` vẫn bị included",
+    "ts": 1606962385037.1,
+    "d": "2020-12-03T02:26:25.037Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "english please",
+    "ts": 1606962383037,
+    "d": "2020-12-03T02:26:23.037Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "cái gitignore not working",
+    "ts": 1606962376036.7,
+    "d": "2020-12-03T02:26:16.036Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "am I gut friend?",
+    "ts": 1606962369036.5,
+    "d": "2020-12-03T02:26:09.036Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "gud boi",
+    "ts": 1606962358036.2,
+    "d": "2020-12-03T02:25:58.036Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "",
+    "ts": 1606962348035.9001,
+    "d": "2020-12-03T02:25:48.035Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "git pull master please",
+    "ts": 1606962114035.8,
+    "d": "2020-12-03T02:21:54.035Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "`ts-node -r ts-node/register/transpile-only src/backend/app.ts` &lt;&lt;&lt; for example this",
+    "ts": 1606962071035.5999,
+    "d": "2020-12-03T02:21:11.035Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "run backend?",
+    "ts": 1606962053035.3,
+    "d": "2020-12-03T02:20:53.035Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "for?",
+    "ts": 1606962045035.1,
+    "d": "2020-12-03T02:20:45.035Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<@UQAFTG927> can you add package.json with some scripts in /src/backend pls?",
+    "ts": 1606962033034.9,
+    "d": "2020-12-03T02:20:33.034Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I am working on the main flow to fetch messages from slack for now",
+    "ts": 1606961870034.3,
+    "d": "2020-12-03T02:17:50.034Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "by the way, replace this config for your .env file\n```CONFIG_API_KEY=\"AIzaSyCIKZFRNyASIZCJ9vnkvEv4fwLfSINt6F0\"\nCONFIG_PROJECT_ID=\"dev-sentiminder\"\nCONFIG_SENDER_ID=\"109091348483\"\nCONFIG_APP_ID=\"1:109091348483:web:d54a895dde1c63e453ee36\"\nSLACK_BOT_TOKEN=\"xoxp-2536493210-826537553075-1527660128695-d364463473b2209d94db0ad698205d58\"\nSLACK_SIGNING_SECRET=\"2272dedf05d92302aea14a7f5f34b169\"```",
+    "ts": 1606961764033.9,
+    "d": "2020-12-03T02:16:04.033Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I just disabled some eslint rules",
+    "ts": 1606961737033.5,
+    "d": "2020-12-03T02:15:37.033Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://github.com/immanuel192/temp-hackathon/pull/4>",
+    "ts": 1606961732033.2,
+    "d": "2020-12-03T02:15:32.033Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UMJ2YJPK9> <@UM4P8U135> please rebase master to your branch",
+    "ts": 1606961732033,
+    "d": "2020-12-03T02:15:32.033Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "yes",
+    "ts": 1606961585032.7,
+    "d": "2020-12-03T02:13:05.032Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "can we disable eslint?",
+    "ts": 1606961576032.5,
+    "d": "2020-12-03T02:12:56.032Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "back from lunch",
+    "ts": 1606960769031.8,
+    "d": "2020-12-03T01:59:29.031Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "no problem",
+    "ts": 1606960074031,
+    "d": "2020-12-03T01:47:54.031Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I will commit in my new PR soon",
+    "ts": 1606960046030.7,
+    "d": "2020-12-03T01:47:26.030Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UNERRH1ST> please dont commit the .env file",
+    "ts": 1606960041030.4001,
+    "d": "2020-12-03T01:47:21.030Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "```SLACK_BOT_TOKEN=\"xoxp-2536493210-826537553075-1527660128695-d364463473b2209d94db0ad698205d58\"\nSLACK_SIGNING_SECRET=\"2272dedf05d92302aea14a7f5f34b169\"```",
+    "ts": 1606959909029.8,
+    "d": "2020-12-03T01:45:09.029Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "extra config for slack",
+    "ts": 1606959907029.4001,
+    "d": "2020-12-03T01:45:07.029Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "env config for front end\n```CONFIG_API_KEY=\"AIzaSyCIKZFRNyASIZCJ9vnkvEv4fwLfSINt6F0\"\nCONFIG_PROJECT_ID=\"dev-sentiminder\"\nCONFIG_SENDER_ID=\"109091348483\"\nCONFIG_APP_ID=\"1:109091348483:web:d54a895dde1c63e453ee36\"```\n",
+    "ts": 1606959628029.2002,
+    "d": "2020-12-03T01:40:28.029Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "by the way <@U1TA9GA4F> have you finalise the UI with Sarah",
+    "ts": 1606959316028.6,
+    "d": "2020-12-03T01:35:16.028Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "what was the error <@UM4P8U135>",
+    "ts": 1606959285028.2,
+    "d": "2020-12-03T01:34:45.028Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "thanks i can push my shit now lol",
+    "ts": 1606959239028,
+    "d": "2020-12-03T01:33:59.028Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "still can’t do it, but i’ll step away for 20' for lucnh",
+    "ts": 1606959173027.4,
+    "d": "2020-12-03T01:32:53.027Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "please try again",
+    "ts": 1606959104027.1,
+    "d": "2020-12-03T01:31:44.027Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "Thao and Sarah ok for now",
+    "ts": 1606959103026.7998,
+    "d": "2020-12-03T01:31:43.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "",
+    "ts": 1606959070026.5,
+    "d": "2020-12-03T01:31:10.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": ":smile:",
+    "ts": 1606959062026.4001,
+    "d": "2020-12-03T01:31:02.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "let us know if there’s an email, then we’ll check email",
+    "ts": 1606959058026.2,
+    "d": "2020-12-03T01:30:58.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "that the way how github works",
+    "ts": 1606959056026.0999,
+    "d": "2020-12-03T01:30:56.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "emails? no ones check emails these days anymore lol",
+    "ts": 1606959042025.5999,
+    "d": "2020-12-03T01:30:42.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "lol",
+    "ts": 1606959039025.5,
+    "d": "2020-12-03T01:30:39.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "accept it then you can tortuse the repo",
+    "ts": 1606959036025.2,
+    "d": "2020-12-03T01:30:36.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "please check email",
+    "ts": 1606959027024.8,
+    "d": "2020-12-03T01:30:27.024Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":disappointed:",
+    "ts": 1606959021024.5,
+    "d": "2020-12-03T01:30:21.024Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "you have not accept the invitation",
+    "ts": 1606959020024.2,
+    "d": "2020-12-03T01:30:20.024Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "hmm github still says no",
+    "ts": 1606959010023.7998,
+    "d": "2020-12-03T01:30:10.023Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I still can’t push anything",
+    "ts": 1606959001023.6,
+    "d": "2020-12-03T01:30:01.023Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UMJ2YJPK9> your username?",
+    "ts": 1606958420021.8,
+    "d": "2020-12-03T01:20:20.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "sarahxoxo",
+    "ts": 1606958400021.5,
+    "d": "2020-12-03T01:20:00.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "`<mailto:thaoxuanhoang@gmail.com|thaoxuanhoang@gmail.com>`",
+    "ts": 1606958360021.1,
+    "d": "2020-12-03T01:19:20.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<!here> your github username please",
+    "ts": 1606958351020.8,
+    "d": "2020-12-03T01:19:11.020Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "ok ok",
+    "ts": 1606958344020.5,
+    "d": "2020-12-03T01:19:04.020Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "can’t push to master, can’t push a branch",
+    "ts": 1606958329020.2,
+    "d": "2020-12-03T01:18:49.020Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "push to what branch",
+    "ts": 1606958311019.9001,
+    "d": "2020-12-03T01:18:31.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "that is public repo mah",
+    "ts": 1606958304019.5,
+    "d": "2020-12-03T01:18:24.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "can’t push sh*t yet",
+    "ts": 1606958303019.4,
+    "d": "2020-12-03T01:18:23.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "```Sarah Khor\n  12:11\n\nyea just download the file\n12:12\nand i tried to push a commit as well\n12:12\nbut i dont have the access rights ```",
+    "ts": 1606958298019,
+    "d": "2020-12-03T01:18:18.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "what",
+    "ts": 1606958292018.6,
+    "d": "2020-12-03T01:18:12.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://github.com/immanuel192/temp-hackathon/pull/2>",
+    "ts": 1606958271018.2,
+    "d": "2020-12-03T01:17:51.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> <@UMJ2YJPK9> pull code",
+    "ts": 1606958269018,
+    "d": "2020-12-03T01:17:49.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "but i dont have the access rights :sweat_smile:",
+    "ts": 1606957966017.7,
+    "d": "2020-12-03T01:12:46.017Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "and i tried to push a commit as well",
+    "ts": 1606957943017.2,
+    "d": "2020-12-03T01:12:23.017Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "yea just download the file",
+    "ts": 1606957907016.9001,
+    "d": "2020-12-03T01:11:47.016Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "Here you go:",
+    "ts": 1606957742016.2,
+    "d": "2020-12-03T01:09:02.016Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "shit – typo. Hang on",
+    "ts": 1606957645016,
+    "d": "2020-12-03T01:07:25.016Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "<@UNERRH1ST> – here’s the sample json file – let me know if you can read this?",
+    "ts": 1606957632015.7002,
+    "d": "2020-12-03T01:07:12.015Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "why Nick is here",
+    "ts": 1606957563015.3,
+    "d": "2020-12-03T01:06:03.015Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "i’m confused",
+    "ts": 1606957556015.1,
+    "d": "2020-12-03T01:05:56.015Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "i’m trying to push a chore commit but get denied `remote: Permission to immanuel192/temp-hackathon.git denied to NickProdromou.`",
+    "ts": 1606957554014.8,
+    "d": "2020-12-03T01:05:54.014Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "i’ve set things up locally as much as I could, <@UQAFTG927> we’re waiting on next instructions",
+    "ts": 1606957097014.3,
+    "d": "2020-12-03T00:58:17.014Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": ":sweat_smile:",
+    "ts": 1606956959012.4,
+    "d": "2020-12-03T00:55:59.012Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "in case you forgot, no tests needed",
+    "ts": 1606956950012.2002,
+    "d": "2020-12-03T00:55:50.012Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "cool i created a branch for my work",
+    "ts": 1606956916011.9,
+    "d": "2020-12-03T00:55:16.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "yea we can raise PRs and do a quick review",
+    "ts": 1606956890011.6,
+    "d": "2020-12-03T00:54:50.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "we won’t do strict review or anything, just that we can keep the commit history clean and keep track of progress",
+    "ts": 1606956551011.1,
+    "d": "2020-12-03T00:49:11.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "do you guys want to raise PRs or yolo push directly to master?",
+    "ts": 1606956443010.2998,
+    "d": "2020-12-03T00:47:23.010Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "i’m installing firebase-tools locally, my internet is slow :sob:",
+    "ts": 1606956388009.8,
+    "d": "2020-12-03T00:46:28.009Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "in firestore",
+    "ts": 1606956321009.3,
+    "d": "2020-12-03T00:45:21.009Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "created all channels",
+    "ts": 1606956310009.0999,
+    "d": "2020-12-03T00:45:10.009Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "cool",
+    "ts": 1606955612008.9,
+    "d": "2020-12-03T00:33:32.008Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> <@UMJ2YJPK9> keep this secret file to run code in local. guide will come later",
+    "ts": 1606955591008.6,
+    "d": "2020-12-03T00:33:11.008Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "ok back",
+    "ts": 1606954855007.9,
+    "d": "2020-12-03T00:20:55.007Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "No internet in the office",
+    "ts": 1606954631007.6,
+    "d": "2020-12-03T00:17:11.007Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "Hmm",
+    "ts": 1606954625007.4001,
+    "d": "2020-12-03T00:17:05.007Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "create branch from master",
+    "ts": 1606953785006.9001,
+    "d": "2020-12-03T00:03:05.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "or i should create another branch and make a PR",
+    "ts": 1606953734006.5999,
+    "d": "2020-12-03T00:02:14.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "do we use `master` branch for development?",
+    "ts": 1606953701006.0999,
+    "d": "2020-12-03T00:01:41.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UNERRH1ST> this is for the web\n```&lt;!-- The core Firebase JS SDK is always required and must be listed first --&gt;\n&lt;script src=\"<https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js>\"&gt;&lt;/script&gt;\n\n&lt;!-- TODO: Add SDKs for Firebase products that you want to use\n     <https://firebase.google.com/docs/web/setup#available-libraries> --&gt;\n\n&lt;script&gt;\n  // Your web app's Firebase configuration\n  var firebaseConfig = {\n    apiKey: \"AIzaSyCIKZFRNyASIZCJ9vnkvEv4fwLfSINt6F0\",\n    authDomain: \"<http://dev-sentiminder.firebaseapp.com|dev-sentiminder.firebaseapp.com>\",\n    databaseURL: \"<https://dev-sentiminder.firebaseio.com>\",\n    projectId: \"dev-sentiminder\",\n    storageBucket: \"<http://dev-sentiminder.appspot.com|dev-sentiminder.appspot.com>\",\n    messagingSenderId: \"109091348483\",\n    appId: \"1:109091348483:web:d54a895dde1c63e453ee36\"\n  };\n  // Initialize Firebase\n  firebase.initializeApp(firebaseConfig);\n&lt;/script&gt;```",
+    "ts": 1606953096005.6,
+    "d": "2020-12-02T23:51:36.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UMJ2YJPK9> please check this one <https://github.com/immanuel192/temp-hackathon/commit/4a87e946d910611f12752462f619f431ec7c7285>",
+    "ts": 1606951873005.3,
+    "d": "2020-12-02T23:31:13.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "you will need it when writing code",
+    "ts": 1606951794005,
+    "d": "2020-12-02T23:29:54.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "to get the FIREBASE_TOKEN",
+    "ts": 1606951780004.7,
+    "d": "2020-12-02T23:29:40.004Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<!here> guys, those who will code, please install firebase-tools in your local and login",
+    "ts": 1606951774004.4,
+    "d": "2020-12-02T23:29:34.004Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "we can use this plugin for generating word cloud <https://github.com/SeregPie/VueWordCloud>\nDemo: <https://seregpie.github.io/VueWordCloud/>",
+    "ts": 1606951491003.9001,
+    "d": "2020-12-02T23:24:51.003Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "created collection messagesentiments",
+    "ts": 1606950865003,
+    "d": "2020-12-02T23:14:25.003Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "noice!",
+    "ts": 1606950864002.9,
+    "d": "2020-12-02T23:14:24.002Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "preparing commit for you <@UMJ2YJPK9>",
+    "ts": 1606950458002.4,
+    "d": "2020-12-02T23:07:38.002Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "",
+    "ts": 1606950450001.9,
+    "d": "2020-12-02T23:07:30.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "yeah",
+    "ts": 1606949329001.8,
+    "d": "2020-12-02T22:48:49.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "we can do it after our sync up at 10:30",
+    "ts": 1606949319001.6,
+    "d": "2020-12-02T22:48:39.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "just want to catch up where we are up to in terms of the script",
+    "ts": 1606949285001.2,
+    "d": "2020-12-02T22:48:05.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "Trung do u wanna go on a google hangout later with me?",
+    "ts": 1606949273000.7,
+    "d": "2020-12-02T22:47:53.000Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":slightly_smiling_face:",
+    "ts": 1606898043031.4,
+    "d": "2020-12-02T08:34:03.031Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "to run",
+    "ts": 1606898039031.2,
+    "d": "2020-12-02T08:33:59.031Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "in my opinion, it is just a script",
+    "ts": 1606898037031,
+    "d": "2020-12-02T08:33:57.031Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> <@UMJ2YJPK9> where do you want to put the backend code? for POC not sure if you want to have separate repo for backend or can use same repo with frontend",
+    "ts": 1606898017030.6,
+    "d": "2020-12-02T08:33:37.030Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "this one works for now",
+    "ts": 1606897804029,
+    "d": "2020-12-02T08:30:04.029Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://travis-ci.com/github/immanuel192/temp-hackathon/jobs/452270465>",
+    "ts": 1606895198028.8,
+    "d": "2020-12-02T07:46:38.028Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": ":+1:",
+    "ts": 1606892752028.6,
+    "d": "2020-12-02T07:05:52.028Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":smiling_imp:",
+    "ts": 1606892604028.4,
+    "d": "2020-12-02T07:03:24.028Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "tmr when officially start, I will clone code to new repo and turn this repo to private",
+    "ts": 1606892600028.2,
+    "d": "2020-12-02T07:03:20.028Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://github.com/immanuel192/temp-hackathon>",
+    "ts": 1606892576027.6,
+    "d": "2020-12-02T07:02:56.027Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "this is curent repo",
+    "ts": 1606892575027.4,
+    "d": "2020-12-02T07:02:55.027Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "the domain should be <https://dev-sentiminder.web.app>",
+    "ts": 1606892448027.1,
+    "d": "2020-12-02T07:00:48.027Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "the frontend will be deployed to firebase hosting service",
+    "ts": 1606892382026.9001,
+    "d": "2020-12-02T06:59:42.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I will setup CI/CD",
+    "ts": 1606892352026.3,
+    "d": "2020-12-02T06:59:12.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "you guys should receive an email for now",
+    "ts": 1606892320025.9,
+    "d": "2020-12-02T06:58:40.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "Created firebase account for <@UM4P8U135> <@UNERRH1ST> and <@UMJ2YJPK9>",
+    "ts": 1606892309025.5,
+    "d": "2020-12-02T06:58:29.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "```[\n  {\n    id: 'C02FSEH6Q',\n    name: 'announcements-global',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: true,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'C93J69LCE',\n    name: 'announcements-syd',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: true,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'CL782373R',\n    name: 'eng-all',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: true,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'C01EK6UN9NG',\n    name: 'hackathon-2020',\n    is_channel: true,\n    is_group: false,\n    is_im: false,\n    is_member: false,\n    is_private: false,\n    is_mpim: false,\n    last_read: undefined\n  },\n  {\n    id: 'G01F74EUWA3',\n    name: 'sentiminder-hackathon-2020',\n    is_channel: false,\n    is_group: true,\n    is_im: false,\n    is_member: true,\n    is_private: true,\n    is_mpim: false,\n    last_read: '1606886139.024300'\n  }\n]```",
+    "ts": 1606886756024.7,
+    "d": "2020-12-02T05:25:56.024Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "fak why it doesnot allow me to add",
+    "ts": 1606886139024.3,
+    "d": "2020-12-02T05:15:39.024Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> need to ask your friend again",
+    "ts": 1606883882023.5,
+    "d": "2020-12-02T04:38:02.023Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "```[\n  { id: 'C02FSEH6Q', name: 'announcements-global' },\n  { id: 'C93J69LCE', name: 'announcements-syd' },\n  { id: 'CL782373R', name: 'eng-all' },\n  { id: 'C01EK6UN9NG', name: 'hackathon-2020' }\n]```",
+    "ts": 1606882877023,
+    "d": "2020-12-02T04:21:17.023Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "if not, just grab the public channels that we know: eng-all, announcements-syd, announcements-global, hackathon-2020, etc",
+    "ts": 1606882567022.7,
+    "d": "2020-12-02T04:16:07.022Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "if not, just grab the public channels that we know: eng-all, announcements-syd, announcements-global, hackathon-2020, etc",
+    "ts": 1606882567022.7,
+    "d": "2020-12-02T04:16:07.022Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "no",
+    "ts": 1606882531022.0999,
+    "d": "2020-12-02T04:15:31.022Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "are we able to tell which channels are the busiest?",
+    "ts": 1606882518021.8,
+    "d": "2020-12-02T04:15:18.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "no :neutral_face:",
+    "ts": 1606882495021.4,
+    "d": "2020-12-02T04:14:55.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":neutral_face:",
+    "ts": 1606882493021.2,
+    "d": "2020-12-02T04:14:53.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "do you want me to fetch all",
+    "ts": 1606882491021,
+    "d": "2020-12-02T04:14:51.021Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "more than 1k",
+    "ts": 1606882486020.7,
+    "d": "2020-12-02T04:14:46.020Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "too many channels",
+    "ts": 1606882484020.4001,
+    "d": "2020-12-02T04:14:44.020Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "in filestore is cool too",
+    "ts": 1606882419019.8,
+    "d": "2020-12-02T04:13:39.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "do you mean hardcode the id?",
+    "ts": 1606882066019.5999,
+    "d": "2020-12-02T04:07:46.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "why not store in firestore",
+    "ts": 1606882059019.4,
+    "d": "2020-12-02T04:07:39.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "store in file?",
+    "ts": 1606882053019.2002,
+    "d": "2020-12-02T04:07:33.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "so that we can store them in a file",
+    "ts": 1606882010018.9,
+    "d": "2020-12-02T04:06:50.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "yes please",
+    "ts": 1606882002018.6,
+    "d": "2020-12-02T04:06:42.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "so that we can do channel id mapping",
+    "ts": 1606881984018.4,
+    "d": "2020-12-02T04:06:24.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "question: <@UM4P8U135> do you want me to fetch list of channels",
+    "ts": 1606881976018.2,
+    "d": "2020-12-02T04:06:16.018Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "can consume messages now",
+    "ts": 1606881962017.8,
+    "d": "2020-12-02T04:06:02.017Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "btw do we want to put BE and FE in one folder?",
+    "ts": 1606881440017.2998,
+    "d": "2020-12-02T03:57:20.017Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "we should be able to consume messages from public channels",
+    "ts": 1606881392016.9001,
+    "d": "2020-12-02T03:56:32.016Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": ":point_up: Arran approved Trung’s request to add our app into SM workspace",
+    "ts": 1606881384016.5999,
+    "d": "2020-12-02T03:56:24.016Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "",
+    "ts": 1606881341015.8,
+    "d": "2020-12-02T03:55:41.015Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "can we use vue2 lol",
+    "ts": 1606881263015.2,
+    "d": "2020-12-02T03:54:23.015Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":joy:",
+    "ts": 1606881214014.7,
+    "d": "2020-12-02T03:53:34.014Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "or do you want to use jquery",
+    "ts": 1606881211014.5,
+    "d": "2020-12-02T03:53:31.014Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "v3 or composition api?",
+    "ts": 1606881207014.3,
+    "d": "2020-12-02T03:53:27.014Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "what vue version do you prefer?",
+    "ts": 1606881200014,
+    "d": "2020-12-02T03:53:20.014Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "also <@UNERRH1ST> do you want to init the frontend project yourself or I do it?",
+    "ts": 1606881195013.7998,
+    "d": "2020-12-02T03:53:15.013Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": ":thumbsup:",
+    "ts": 1606881173013.4001,
+    "d": "2020-12-02T03:52:53.013Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "all good",
+    "ts": 1606881170013.2,
+    "d": "2020-12-02T03:52:50.013Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UMJ2YJPK9> <@UNERRH1ST> I will create base structure first in order to avoid people waiting each other . any objection?",
+    "ts": 1606881160012.8,
+    "d": "2020-12-02T03:52:40.012Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "hehe",
+    "ts": 1606880694012.1,
+    "d": "2020-12-02T03:44:54.012Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "who care",
+    "ts": 1606880565011.6,
+    "d": "2020-12-02T03:42:45.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":joy:",
+    "ts": 1606880561011.4,
+    "d": "2020-12-02T03:42:41.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "no need to worry",
+    "ts": 1606880558011.2,
+    "d": "2020-12-02T03:42:38.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "we can just use our dev account",
+    "ts": 1606880554011,
+    "d": "2020-12-02T03:42:34.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": ":+1:",
+    "ts": 1606879814010.7,
+    "d": "2020-12-02T03:30:14.010Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Yes, we can. Just need to be mindful",
+    "ts": 1606879574010.2998,
+    "d": "2020-12-02T03:26:14.010Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "noice thx",
+    "ts": 1606879491010,
+    "d": "2020-12-02T03:24:51.010Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "let me reach out &amp; confirm that we can use our aws dev",
+    "ts": 1606879431009.8,
+    "d": "2020-12-02T03:23:51.009Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "which aws account should we use for the ML service?",
+    "ts": 1606879226009.3,
+    "d": "2020-12-02T03:20:26.009Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "```{\n  \"_id\": \"30a7cee3-8114-11e5-a029-02602716bbb1\",\n  \"Timestamp\": \"2020-12-01 02:00:07.249\",\n  \"ChannelName\": \"eng-all\",\n  \"ChannelId\": \"30a7cee3\",\n  \"SentimentScore\": {\n    \"Mixed\": 0.030585512690246105,\n    \"Positive\": 0.94992071056365967,\n    \"Neutral\": 0.0141543131828308,\n    \"Negative\": 0.00893945890665054\n  },\n  \"Sentiment\": \"POSITIVE\",\n  \"LanguageCode\": \"en\"\n}```\nProposal for data stored in Firebase",
+    "ts": 1606877262007.5,
+    "d": "2020-12-02T02:47:42.007Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<https://trello.com/b/FWrP1nOx/sentiminder> &lt;&lt;&lt; I created a Trello board &amp; sent invite to your SM emails",
+    "ts": 1606876065006.8,
+    "d": "2020-12-02T02:27:45.006Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "<@UNERRH1ST> – do you have a preferred frontend UI framework that you know &amp; is quick?",
+    "ts": 1606875996006.4001,
+    "d": "2020-12-02T02:26:36.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "updated <@UM4P8U135>",
+    "ts": 1606875604005.6,
+    "d": "2020-12-02T02:20:04.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":d",
+    "ts": 1606875219005.3,
+    "d": "2020-12-02T02:13:39.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<@UQAFTG927>, Is AWS Comprehend missing on the diagram?",
+    "ts": 1606874682005,
+    "d": "2020-12-02T02:04:42.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@U1TA9GA4F> can you please share the hackathon folder with Sarah",
+    "ts": 1606872534004.4,
+    "d": "2020-12-02T01:28:54.004Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "just share the file to you",
+    "ts": 1606872518004,
+    "d": "2020-12-02T01:28:38.004Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "my email: <mailto:sarah.khor@siteminder.com|sarah.khor@siteminder.com>",
+    "ts": 1606872194003.5,
+    "d": "2020-12-02T01:23:14.003Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "i cant access the file",
+    "ts": 1606872173003.0999,
+    "d": "2020-12-02T01:22:53.003Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "do you think it is feasible?",
+    "ts": 1606871994002.7002,
+    "d": "2020-12-02T01:19:54.002Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "I am thinking to use Firestore to quickly save data (on the backend side) and quickly get data (in realtime) on the frontend side",
+    "ts": 1606871974002.4,
+    "d": "2020-12-02T01:19:34.002Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<https://app.diagrams.net/#G1Yyr5_WfuywjINVPYM53SD-joGqfpy1Qi>",
+    "ts": 1606871943001.6,
+    "d": "2020-12-02T01:19:03.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "try this one\n<https://github.com/vuejs/vuefire>",
+    "ts": 1606871765001.3,
+    "d": "2020-12-02T01:16:05.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UNERRH1ST> do you know how to connect to Firebase from Vue to fetch data ?",
+    "ts": 1606871544000.6,
+    "d": "2020-12-02T01:12:24.000Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "seems like can not fetch private messages",
+    "ts": 1606809922044.6,
+    "d": "2020-12-01T08:05:22.044Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "moved to 1:30pm",
+    "ts": 1606787808044.2,
+    "d": "2020-12-01T01:56:48.044Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UM4P8U135> is that ok to update tmr meeting to after 1PM? I have got daily standup meeting at 1PM :slightly_smiling_face:",
+    "ts": 1606787338044,
+    "d": "2020-12-01T01:48:58.044Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Sent an invite for us to have a chat tomorrow afternoon. We can clarify the idea, discuss the scope, work out how we should execute on Thursday &amp; Friday, etc.",
+    "ts": 1606784185043.2998,
+    "d": "2020-12-01T00:56:25.043Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "hello",
+    "ts": 1606783295040.2998,
+    "d": "2020-12-01T00:41:35.040Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "We have a complete team now :slightly_smiling_face:. It’s also worth to notice that we won’t have to risk the FE with <@U1TA9GA4F> doing the coding",
+    "ts": 1606783239039.5999,
+    "d": "2020-12-01T00:40:39.039Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": ":partycat:",
+    "ts": 1606783221039.2,
+    "d": "2020-12-01T00:40:21.039Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Introducing our FE engineer - <@UNERRH1ST>",
+    "ts": 1606783197038.5999,
+    "d": "2020-12-01T00:39:57.038Z"
+  },
+  {
+    "type": "message",
+    "user": "UNERRH1ST",
+    "text": "<@UNERRH1ST> has joined the group",
+    "ts": 1606783179038.3,
+    "d": "2020-12-01T00:39:39.038Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<https://join.slack.com/t/cheersminder/shared_invite/zt-j6rplxsi-4vHY1Fv1AgzSeumpQLQgow> &lt;&lt;&lt; This is the temporary slack workspace that I created. When you join, I can make you all admins. We can use it to experiment things before starting to mess around with SM workspace :sweat_smile:",
+    "ts": 1606777395037.9,
+    "d": "2020-11-30T23:03:15.037Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "with thousands of records like above, we should be able to draw up charts/diagrams to provide insights into team/channel’s sentiment",
+    "ts": 1606776932035.3,
+    "d": "2020-11-30T22:55:32.035Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I think we should aim for aggregated data. We can tag messages with time &amp; channel -&gt; feed it into comprehend -&gt; receive a score: “A message with &lt;score&gt; was posted at time X in channel Y”",
+    "ts": 1606776891034.4,
+    "d": "2020-11-30T22:54:51.034Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I don’t think that we should map users with scores. That’s an entire different territory that we’re stepping into.",
+    "ts": 1606776665031.4,
+    "d": "2020-11-30T22:51:05.031Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "yeah, sounds good to have a FE engineer",
+    "ts": 1606775340026.5,
+    "d": "2020-11-30T22:29:00.026Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Do you guys think that we should invite a FE engineer to join us?",
+    "ts": 1606775275025.7002,
+    "d": "2020-11-30T22:27:55.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "2 things\n• should we export the data to json format? or should we implement lambda function to crob job pulling data? \n• How do we calculate the final score (of possitive, negative, ...)? average? do we need to aggregate the score by person? or by team",
+    "ts": 1606775247025.2,
+    "d": "2020-11-30T22:27:27.025Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "(this is pretty funny)",
+    "ts": 1606773898019.8,
+    "d": "2020-11-30T22:04:58.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "testing AWS comprehend",
+    "ts": 1606773708018.8,
+    "d": "2020-11-30T22:01:48.018Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "<@UM4P8U135> Excellent news, this could be good enough for us as a POC (we’ll scout public channels to see what we can do). Could you check how it deals with threads &amp; emoticons? Also, is there a way to extract giphy content, as it’s often used for meritorious comments? ",
+    "ts": 1606762740017.9,
+    "d": "2020-11-30T18:59:00.017Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "So, in short, if you’re an admin, we can export the messages from public channels in JSON format. If not, we’re limited to new messages from channels (regardless of public or private) to which we add the SentiMinder slack app.",
+    "ts": 1606730096015.3,
+    "d": "2020-11-30T09:54:56.015Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "This is what the UI looks like",
+    "ts": 1606730003013.6,
+    "d": "2020-11-30T09:53:23.013Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "This is what the channel looks like.",
+    "ts": 1606729933013.2,
+    "d": "2020-11-30T09:52:13.013Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "So, I created a workspace myself and exported data, this is what i’ve got.",
+    "ts": 1606729880012.5,
+    "d": "2020-11-30T09:51:20.012Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<https://slack.com/intl/en-au/help/articles/201658943-Export-your-workspace-data> &lt;&lt;&lt; Simon, SM is on standard plan. Workspace owners and admins on the free version of Slack and the Standard subscription can export data from public channels.",
+    "ts": 1606729818011.6,
+    "d": "2020-11-30T09:50:18.011Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Is it valuable to provide individual sentiment? If yes, I suspect it’ll cause data privacy concerns.",
+    "ts": 1606694087010.4001,
+    "d": "2020-11-29T23:54:47.010Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "the question is whether we use real data (export slack messages) or sample data to prove the point?",
+    "ts": 1606693909008.9,
+    "d": "2020-11-29T23:51:49.008Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "In the proposal, I mentioned that we can show sentiment grouped by team (e.g. all team channels), channel (e.g. public channel, project channel that indicates collaboration between different dev teams like enterprise &amp; CM), time period to see the change over time (e.g. week, month…)",
+    "ts": 1606693876008.2,
+    "d": "2020-11-29T23:51:16.008Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "I think the key to the entire project is to define exactly what we need to be able to show to illustrate success.",
+    "ts": 1606693639005.9,
+    "d": "2020-11-29T23:47:19.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Btw, do we have enough info to discuss the scope of the prototype? Please feel free to add more suggestions/ideas to what we can/should do for a successful demo.",
+    "ts": 1606693175004.7,
+    "d": "2020-11-29T23:39:35.004Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "Thanks, Simon. This adds more confidence to why we’re solving this problem.",
+    "ts": 1606693146004.2,
+    "d": "2020-11-29T23:39:06.004Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "I’ve prepared a shared folder for source materials / research: <https://drive.google.com/drive/folders/1LXXHSVx8XC6KybFx96NnnISMJaMNzRfC?usp=sharing>",
+    "ts": 1606691574001.1,
+    "d": "2020-11-29T23:12:54.001Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "Hi Simon",
+    "ts": 1606691294000.7,
+    "d": "2020-11-29T23:08:14.000Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "Hi all!",
+    "ts": 1606683704000.4001,
+    "d": "2020-11-29T21:01:44.000Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": ":slightly_smiling_face:",
+    "ts": 1606444815019.5999,
+    "d": "2020-11-27T02:40:15.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "hi everyone, call me Mr Vietnamese Slave for short",
+    "ts": 1606444814019.4,
+    "d": "2020-11-27T02:40:14.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I forgot to introduce everyone\n•  <@UQAFTG927> is an engineer from Journey team, my fellow Vietnamese. In that team, Trung is the only engineer based in Sydney. And for months, he single handedly satisfied all requirements from a PO, a PM, a PE, and an EM. That’s performance &amp; productivity.\n• <@U1TA9GA4F> is Enterprise team senior product manager. Do you remember the exceptional Enterprise’s team product update videos? They make it clear to everyone (regardless of role or department) the Enterprise team’s 5 Ws. That’s Simon. \n• <@UMJ2YJPK9> is an engineer from Enterprise team, who has experience working with ML &amp; sentimental analysis. In Enterprise team, there’s not a single area of code, be it infra, backend or frontend, without his contribution footprints.\n• Me - I’m just trying to get everyone together and achieve success together.",
+    "ts": 1606444735019,
+    "d": "2020-11-27T02:38:55.019Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "<https://www.machinelearnjs.com/api/linear_model.LogisticRegression.html#usage>",
+    "ts": 1606441185006.8,
+    "d": "2020-11-27T01:39:45.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "it's already built and ready to use",
+    "ts": 1606441156006.5,
+    "d": "2020-11-27T01:39:16.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "yeah",
+    "ts": 1606441139006.2002,
+    "d": "2020-11-27T01:38:59.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "do you mean this library?",
+    "ts": 1606441103006,
+    "d": "2020-11-27T01:38:23.006Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "is this like building our own ML model?",
+    "ts": 1606441061005.6,
+    "d": "2020-11-27T01:37:41.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "<https://www.machinelearnjs.com/api/linear_model.LogisticRegression.html> :partycat:",
+    "ts": 1606441004005.1,
+    "d": "2020-11-27T01:36:44.005Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "for sentiment analysis",
+    "ts": 1606440993004.7,
+    "d": "2020-11-27T01:36:33.004Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "I can put SentiMinder there as a start. If there’re other ideas, we can update it",
+    "ts": 1606440827003.9001,
+    "d": "2020-11-27T01:33:47.003Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<https://docs.google.com/document/d/1IUV-ZBB9-n2oDoyF7nGKsYWttZrhp3ngQTGEtaPjiQQ/edit?usp=sharing> &lt;&lt;&lt; Proposal",
+    "ts": 1606440728003.3,
+    "d": "2020-11-27T01:32:08.003Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "So, Jason has reserved the #1 slot for the idea. Noice. What do you think that we should put in the idea column?",
+    "ts": 1606440517002.1,
+    "d": "2020-11-27T01:28:37.002Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "hey guys",
+    "ts": 1606440435001,
+    "d": "2020-11-27T01:27:15.001Z"
+  },
+  {
+    "type": "message",
+    "user": "U1TA9GA4F",
+    "text": "<@U1TA9GA4F> has joined the group",
+    "ts": 1606440430000.7998,
+    "d": "2020-11-27T01:27:10.000Z"
+  },
+  {
+    "type": "message",
+    "user": "UMJ2YJPK9",
+    "text": "<@UMJ2YJPK9> has joined the group",
+    "ts": 1606440430000.6,
+    "d": "2020-11-27T01:27:10.000Z"
+  },
+  {
+    "type": "message",
+    "user": "UQAFTG927",
+    "text": "<@UQAFTG927> has joined the group",
+    "ts": 1606440430000.4001,
+    "d": "2020-11-27T01:27:10.000Z"
+  },
+  {
+    "type": "message",
+    "user": "UM4P8U135",
+    "text": "<@UM4P8U135> has joined the group",
+    "ts": 1606440416000.2,
+    "d": "2020-11-27T01:26:56.000Z"
+  }
+]

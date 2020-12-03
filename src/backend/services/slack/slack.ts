@@ -25,7 +25,8 @@ export class Slack implements ISlack {
 
   async getAllChannels() {
     const channels: IChannelRecord[] = [];
-    const knownChannelName = ['eng-all', 'announcements-syd', 'announcements-global', 'hackathon-2020', 'sentiminder-hackathon-2020'];
+    const knownChannelName = ['eng-all', 'announcements-syd', 'announcements-global', 'hackathon-2020', 'sentiminder-hackathon-2020', 'guild-frontend',
+      'guild_infra_tech', 'stayingsocial'];
     try {
       let cursor;
       do {
