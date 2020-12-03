@@ -5,6 +5,8 @@ import data from '@/sample-data.json';
 import CustomPolarChart from '@/views/CustomPolarChart';
 // @ts-ignore
 import CustomBarChart from '@/views/CustomBarChart';
+// @ts-ignore
+import ProgressBar from '@/views/ProgressBar';
 import { get, countBy, map, groupBy, chain, sum, filter } from 'lodash';
 import { db } from '@/main';
 
@@ -12,6 +14,7 @@ export default {
   components: {
     CustomPolarChart,
     CustomBarChart,
+    ProgressBar,
   },
   props: ['currentChannel'],
   data() {
@@ -99,9 +102,17 @@ export default {
 </script>
 <template>
   <div class="root-page shadow">
-    <div class="title">#{{ currentChannel.name }}</div>
-    <custom-bar-chart class="bar-chart"/>
-    <custom-polar-chart v-if="loaded" class="polar-chart" :chartData="polarChartData" />
+    <div class="d-md-flex">
+      <div class="title">#{{ currentChannel.name }}</div>
+      <div class="refresh" @click="this.getData">
+        <img src="@/assets/icon-refresh.png" alt="refresh">
+      </div>
+    </div>
+    <custom-bar-chart class="bar-chart p-3 p-md-5 m-md-3"/>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <progress-bar class="progress-chart mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
+      <custom-polar-chart v-if="loaded" class="polar-chart d-flex mr-md-3 pt-3 px-3 pt-md-5 px-md-5" :chartData="polarChartData" />
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -119,6 +130,28 @@ export default {
   .title {
     font-size: 36px;
     color: #333333;
+  }
+
+  .refresh {
+    margin-left: auto;
+    cursor: pointer;
+    line-height: 54px;
+
+    img {
+      width: 16px;
+    }
+  }
+
+  .bar-chart {
+    width: 350px;
+    background: #ffffff;
+  }
+
+  .progress-chart {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
   }
 
   .polar-chart {
