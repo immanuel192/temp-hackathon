@@ -27,6 +27,7 @@ module.exports = {
     'no-await-in-loop': 0,
     'no-restricted-syntax': 0,
     '@typescript-eslint/camelcase': 0,
+    'class-methods-use-this': 0,
   },
   overrides: [
     {

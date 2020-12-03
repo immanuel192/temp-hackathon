@@ -1,6 +1,8 @@
 import { IChannelRecord } from '@/share';
 import { App } from '@slack/bolt';
-import { IChannelListResponse, ISlack } from './interfaces';
+import {
+  IChannelListResponse, IFetchMessagesRequest, ISlack, IFetchMessagesResponse,
+} from './interfaces';
 
 export class Slack implements ISlack {
   private app!: App;
@@ -65,21 +67,38 @@ export class Slack implements ISlack {
     return channels;
   }
 
-  async fetchMessages(id, ts) {
-    try {
-      // Call the conversations.history method using the built-in WebClient
-      const result = await this.app.client.conversations.history({
-        // The token you used to initialize your app
-        token: process.env.SLACK_BOT_TOKEN,
-        channel: id,
-        // Limit results
-        inclusive: true,
-        limit: 10,
-      });
-      return result.messages;
-    } catch (err) {
-      console.log(err);
+  async fetchMessages(ops: IFetchMessagesRequest) {
+    const requestConfig: any = {
+      token: this.slackBotToken,
+      channel: ops.id,
+      inclusive: false,
+      limit: ops.limit || 100,
+    };
+    // if no ts then grab from the last 30 days
+    if (ops.ts) {
+      if (ops.fetchOnward) {
+        requestConfig.oldest = ops.ts / 1000;
+      } else {
+        requestConfig.latest = ops.ts / 1000;
+      }
     }
-    return '';
+
+    const result: any = await this.app.client.conversations.history(requestConfig);
+    const res: IFetchMessagesResponse = {
+      hasMore: result.has_more,
+      nextTs: 0,
+      messages: result.messages,
+      nextCursor: result.response_metadata?.next_cursor,
+    };
+
+    res.messages.forEach((message) => {
+      // eslint-disable-next-line no-param-reassign
+      message.ts = parseFloat(message.ts as any) * 1000;
+      if (message.ts > res.nextTs) {
+        res.nextTs = message.ts;
+      }
+    });
+
+    return res;
   }
 }
