@@ -1,4 +1,5 @@
 export interface IComprehendScore {
+  sentiment: "POSITIVE" | "NEGATIVE" | "NEUTRAL" | "MIXED" | string
   mixed: number;
   positive: number;
   neutral: number;
