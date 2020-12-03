@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueCompositionApi from '@vue/composition-api';
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 import config from '@/config';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';

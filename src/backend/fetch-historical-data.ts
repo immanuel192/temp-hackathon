@@ -3,9 +3,9 @@ import { config } from 'aws-sdk';
 
 import path from 'path';
 import fs from 'fs';
+import Bottleneck from 'bottleneck';
 import { Slack } from './services/slack';
 import { ISlackMessage } from './services/interfaces';
-import Bottleneck from 'bottleneck'
 
 const fsPromise = fs.promises;
 
@@ -19,15 +19,15 @@ const firstOf2005 = 1104537600 * 1000;
 
 const bottleLimiter = new Bottleneck({
   minTime: 12000, // 50 per minute
-})
+});
 
-let requestCount = 0
+let requestCount = 0;
 
 function sleep(ms) {
   return new Promise((resolve) => {
     setTimeout(resolve, ms);
   });
-} 
+}
 
 const writeToFile = async (fileName: string, messages: ISlackMessage[]) => {
   const filePath = path.join(process.cwd(), 'src/backend/historical-data', `${fileName}.json`);
@@ -48,8 +48,8 @@ const transformMessages = (messages: ISlackMessage[]) => messages.map((m) => ({
 })).sort((m1, m2) => m2.ts - m1.ts);
 
 const fetchHistoricalData = async (slack: Slack, channelId: string, channelName: string) => {
-  let tsCursor = now
-  let allMessages: ISlackMessage[] = []
+  let tsCursor = now;
+  let allMessages: ISlackMessage[] = [];
 
   while (tsCursor > firstOf2015) {
     try {
@@ -58,9 +58,9 @@ const fetchHistoricalData = async (slack: Slack, channelId: string, channelName:
         fetchOnward: false,
         ts: tsCursor,
         limit: 200,
-      })
+      });
 
-      requestCount += 1
+      requestCount += 1;
 
       console.log(`Fetch ${messages.length} messages at ${new Date(tsCursor)} for channel ${channelName}`);
 
@@ -74,9 +74,9 @@ const fetchHistoricalData = async (slack: Slack, channelId: string, channelName:
 
       // This doesn't seem to work, cry
       if (requestCount === 50) {
-        requestCount = 0
-        console.log('====================Sleep====================')
-        await sleep(60 * 1000)
+        requestCount = 0;
+        console.log('====================Sleep====================');
+        await sleep(60 * 1000);
       }
     } catch (err) {
       console.log('Err', err);
@@ -84,20 +84,20 @@ const fetchHistoricalData = async (slack: Slack, channelId: string, channelName:
   }
 
   await writeToFile(channelName, allMessages);
-}
+};
 
 Promise.resolve()
   .then(async () => {
     const slack = new Slack();
     slack.init();
 
-    const allChannels = await slack.getAllChannels()
+    const allChannels = await slack.getAllChannels();
 
     // for (let i = 0; i < allChannels.length; i++) {
     //   await fetchHistoricalData(slack, allChannels[i].channelId, allChannels[i].name)
     // }
 
-    await Promise.all(allChannels.map(async c => {
-      await fetchHistoricalData(slack, c.channelId, c.name)
-    }))
+    await Promise.all(allChannels.map(async (c) => {
+      await fetchHistoricalData(slack, c.channelId, c.name);
+    }));
   });
