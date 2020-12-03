@@ -30,10 +30,6 @@ export interface IChannelRecord {
   channelId: string;
   name: string;
   isChannel: boolean;
-  isGroup: boolean;
-  isIm: boolean;
-  isMember: boolean;
   isPrivate: boolean;
-  isMpim: boolean;
-  lastRead?: string; // Unix ts
+  lastRead?: number; // Unix ts
 }
