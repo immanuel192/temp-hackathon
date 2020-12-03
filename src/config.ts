@@ -1,9 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface Config {
-  API_KEY: string
-  PROJECT_ID: string
-  SENDER_ID: string
-  APP_ID: string
+  API_KEY: string;
+  PROJECT_ID: string;
+  SENDER_ID: string;
+  APP_ID: string;
 }
 
 declare global {
