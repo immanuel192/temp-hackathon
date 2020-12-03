@@ -39,6 +39,9 @@
     "eslint-plugin-vue": "^6.2.2",
     "path": "^0.12.7",
     "typescript": "~3.9.3",
+    "ts-node": "^9.0.0",
+    "firebase-admin": "^9.4.1",
+    "tslib": "^2.0.3",
     "vue-template-compiler": "^2.6.11"
   }
 }

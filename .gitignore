@@ -24,3 +24,4 @@ database-debug.log
 ui-debug.log
 public/config.js
 coverage/*
+key.json
