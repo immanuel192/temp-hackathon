@@ -1,5 +1,9 @@
 import './services/config';
 import { Slack } from './services/slack';
+import { config } from 'aws-sdk'
+import AWSComprehend from "./services/comprehend";
+
+config.update({ region: 'eu-west-1' }); // Whatever region for now.
 
 Promise.resolve()
   .then(async () => {
