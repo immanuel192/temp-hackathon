@@ -10,8 +10,23 @@ export default {
       default: null,
     }
   },
+  data() {
+    return {
+      options: {
+        title: {
+          display: true,
+          text: 'Sentiment Distribution'
+        }
+      }
+    }
+  },
+  watch: {
+    chartData () {
+      this.renderChart(this.chartData, this.options)
+    }
+  },
   mounted() {
-    this.renderChart(this.chartData)
+    this.renderChart(this.chartData, this.options)
   },
   computed: {
     myStyles () {
