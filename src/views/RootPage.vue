@@ -167,13 +167,13 @@ export default {
         if (s.sentiment === 'positive') {
           return {
             label: s.dateStr,
-            backgroundColor: '#428527',
+            backgroundColor: 'rgba(15, 176, 99, .75)',
             data: [s.count],
           }
         }
         return {
           label: s.dateStr,
-          backgroundColor: '#BC192A',
+          backgroundColor: 'rgba(247, 85, 68, 1)',
           data: [-s.count],
         }
       })
