@@ -1,16 +1,15 @@
 import './services/config';
 import { config } from 'aws-sdk';
-import { TSFlag } from 'ts-flag';
 import { ISlack, IFireStore, IAWSComprehend } from './services/interfaces';
 import { FireStore } from './services/firestore';
 import { Slack } from './services/slack';
 import { ChannelCrawlExecutor } from './services/executor';
 import AWSComprehend from './services/comprehend';
+import { getCliArgs } from './services/cli';
 
 config.update({ region: 'us-west-2' });
 
 console.log('Starting app');
-const flag = new TSFlag();
 Promise.resolve()
   .then(async () => {
     console.log('Init Slack');
@@ -26,12 +25,16 @@ Promise.resolve()
     const awsComprehend: IAWSComprehend = new AWSComprehend();
 
     //
-    const channelId = flag.str('channel', null, 'channel Id');
+    const args = getCliArgs();
+    if (args.help) {
+      args.tsFlag.Usage();
+      return;
+    }
 
     const executor = new ChannelCrawlExecutor(slack, firestore, awsComprehend);
-    await executor.run(channelId);
+
+    await executor.run(args.direction, args.keep === true, args.channel);
   })
   .catch((err) => {
     console.error(err);
-    flag.Usage();
   });

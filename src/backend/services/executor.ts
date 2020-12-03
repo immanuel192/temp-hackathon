@@ -9,7 +9,7 @@ export class ChannelCrawlExecutor {
     private comprehend: IAWSComprehend,
   ) { }
 
-  async run(channelId: string) {
+  async run(channelId: string, direction: 'onward' | 'backward') {
     const channel = await this.firestore.getChannelById(channelId);
 
     if (!channel) {
@@ -21,7 +21,7 @@ export class ChannelCrawlExecutor {
 
     const response = await this.slack.fetchMessages({
       id: channelId,
-      fetchOnward: true,
+      fetchOnward: direction === 'onward',
       ts: lastTs,
     });
 
