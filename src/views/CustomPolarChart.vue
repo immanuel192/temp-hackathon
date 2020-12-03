@@ -13,9 +13,16 @@ export default {
   mounted() {
     this.renderChart(this.chartData)
   },
+  computed: {
+    myStyles () {
+      return {
+        position: 'relative'
+      }
+    }
+  }
 }
 </script>
-  <bar-chart :chartdata="chartData" ></bar-chart>
+  <bar-chart :chartdata="chartData" :styles="myStyles"></bar-chart>
 <style lang="scss" scoped>
 
 </style>
