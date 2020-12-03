@@ -3,14 +3,11 @@ import { defineComponent } from '@vue/composition-api';
 // import { Bar } from 'vue-chartjs';
 import data from '@/sample-data.json';
 // @ts-ignore
-import CustomBarChart from '@/views/CustomBarChart';
-// @ts-ignore
 import CustomPolarChart from '@/views/CustomPolarChart';
 import { get, countBy, map, groupBy, chain, sum } from 'lodash';
 
 export default {
   components: {
-    CustomBarChart,
     CustomPolarChart,
   },
   data() {
@@ -19,38 +16,6 @@ export default {
     }
   },
   computed: {
-    barChartData() {
-      let aaa = {}
-
-      aaa = {
-        labels: ['2020-12-01', '2020-12-02'],
-        datasets: [
-          {
-            label: 'Positive',
-            backgroundColor: '#f87979',
-            data: [],
-          },
-        ],
-      }
-
-      // console.log(aaa)
-
-      return {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-        datasets: [
-          {
-            label: 'Data One',
-            backgroundColor: '#f87979',
-            data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
-          },
-          {
-            label: 'Data One',
-            backgroundColor: 'grey',
-            data: [-40, -20, 12, -39, 10, 40, 39, -80, 40, 20, 12, 11]
-          }
-        ]
-      }
-    },
     polarChartData() {
       const dataSet = chain(this.rawData)
         .map((item) => {
