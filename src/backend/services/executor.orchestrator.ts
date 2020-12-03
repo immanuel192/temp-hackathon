@@ -24,6 +24,28 @@ export class ExecutorOrchestrator {
       fetchChannels.forEach((t) => channels.push(t.channelId));
     }
 
+    const executors = channels.map((channel) => {
+      const t = 1;
+      const ret = {
+        channelId: channel,
+        executor: new ChannelCrawlExecutor(this.slack, this.firestore, this.comprehend),
+      };
+
+      return ret;
+    });
+
+    do {
+      await Promise.all(executors.map(async (executor) => {
+        await executor.executor.run(options.channelId, options.direction);
+      }));
+
+      if (!options.interact) {
+        break;
+      }
+    } while (1);
+
+    console.log('Finish all executors');
+
     return '';
   }
 }

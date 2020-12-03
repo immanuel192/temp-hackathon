@@ -17,7 +17,7 @@ export class ChannelCrawlExecutor {
     }
 
     const lastTs = this.calculateLastTs(channel.lastRead);
-    console.log(`Executing channel ${channelId} from ${new Date(lastTs).toISOString()}`);
+    console.log(`Executing channel ${channelId} from ${new Date(lastTs).toISOString()} with direction ${direction}`);
 
     const response = await this.slack.fetchMessages({
       id: channelId,

@@ -1,12 +1,12 @@
-import { TSFlag } from 'ts-flag';
+import parser from 'yargs-parser';
 
 export const getCliArgs = () => {
-  const flag = new TSFlag();
+  const flags = parser(process.argv.slice(2));
+
   return {
-    tsFlag: flag,
-    channel: flag.str('channel', null, 'channel Id'),
-    keep: flag.bool('interact', false, 'keep interacting with terminal'),
-    direction: flag.str('direction', 'onward', 'onward or backward') as 'onward' | 'backward',
-    help: flag.bool('help', true, 'show usage'),
+    channel: flags.channel,
+    keep: flags.interact === 'true',
+    direction: flags.direction || 'onward' as 'onward' | 'backward',
+    help: flags.help,
   };
 };
