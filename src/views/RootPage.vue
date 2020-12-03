@@ -69,5 +69,13 @@ export default {
 <style lang="scss" scoped>
 .root-page {
   margin-left: 220px;
+
+  .polar-chart {
+    width: 400px;
+  }
+
+  .polar-chart {
+    width: 300px;
+  }
 }
 </style>

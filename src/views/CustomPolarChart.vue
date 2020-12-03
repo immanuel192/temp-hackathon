@@ -16,7 +16,6 @@ export default {
   computed: {
     myStyles () {
       return {
-        height: '300px',
         position: 'relative'
       }
     }
