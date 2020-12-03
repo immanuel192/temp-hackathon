@@ -5,5 +5,5 @@ export interface IFireStore {
   getChannels(): Promise<IChannelRecord[]>;
   getChannelById(channelId: string): Promise<IChannelRecord>;
   updateChannelLastRead(channelId: string, newTs: number): Promise<void>;
-  addMessageScore(sentimentScore: IComprehendScore, channelId: string);
+  addMessageScore(sentimentScore: IComprehendScore, channelId: string, ts: Date);
 }
