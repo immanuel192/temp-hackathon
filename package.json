@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
     "lint": "eslint src tests --ext .ts",
-    "run-backend": "ts-node -r ts-node/register/transpile-only src/backend/app.ts"
+    "run-backend": "ts-node -r ts-node/register/transpile-only src/backend/app.ts",
+    "fetch-history": "DOTENV=.env ts-node -r ts-node/register/transpile-only src/backend/fetch-historical-data.ts"
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.10",
@@ -15,9 +16,11 @@
     "bluebird": "^3.7.2",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.20.1",
+    "bottleneck": "^2.19.5",
     "chart.js": "^2.9.4",
     "firebase": "^8.1.1",
     "firebase-admin": "^9.4.1",
+    "limiter": "^1.1.5",
     "lodash": "^4.17.20",
     "node-sass": "^5.0.0",
     "register-service-worker": "^1.7.1",

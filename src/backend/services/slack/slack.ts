@@ -25,7 +25,8 @@ export class Slack implements ISlack {
 
   async getAllChannels() {
     const channels: IChannelRecord[] = [];
-    const knownChannelName = ['eng-all', 'announcements-syd', 'announcements-global', 'hackathon-2020', 'sentiminder-hackathon-2020'];
+    const knownChannelName = ['eng-all', 'announcements-syd', 'announcements-global', 'hackathon-2020', 'sentiminder-hackathon-2020', 'guild-frontend',
+      'guild_infra_tech', 'stayingsocial'];
     try {
       let cursor;
       do {
@@ -86,7 +87,7 @@ export class Slack implements ISlack {
     const result: any = await this.app.client.conversations.history(requestConfig);
     const res: IFetchMessagesResponse = {
       hasMore: result.has_more,
-      nextTs: 0,
+      nextTs: result.messages?.length > 0 ? parseFloat(result.messages[0].ts) * 1000 : 0,
       messages: result.messages,
       nextCursor: result.response_metadata?.next_cursor,
     };
@@ -94,7 +95,10 @@ export class Slack implements ISlack {
     res.messages.forEach((message) => {
       // eslint-disable-next-line no-param-reassign
       message.ts = parseFloat(message.ts as any) * 1000;
-      if (message.ts > res.nextTs) {
+      if (ops.fetchOnward && message.ts > res.nextTs) {
+        res.nextTs = message.ts;
+      }
+      if (!ops.fetchOnward && message.ts < res.nextTs) {
         res.nextTs = message.ts;
       }
     });
