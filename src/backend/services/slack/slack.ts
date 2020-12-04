@@ -78,16 +78,16 @@ export class Slack implements ISlack {
     // if no ts then grab from the last 30 days
     if (ops.ts) {
       if (ops.fetchOnward) {
-        requestConfig.oldest = ops.ts / 1000;
+        requestConfig.oldest = Math.trunc(ops.ts * 10) / 10000;
       } else {
-        requestConfig.latest = ops.ts / 1000;
+        requestConfig.latest = Math.trunc(ops.ts * 10) / 10000;
       }
     }
 
     const result: any = await this.app.client.conversations.history(requestConfig);
     const res: IFetchMessagesResponse = {
       hasMore: result.has_more,
-      nextTs: result.messages?.length > 0 ? parseFloat(result.messages[0].ts) * 1000 : 0,
+      nextTs: ops.ts,
       messages: result.messages,
       nextCursor: result.response_metadata?.next_cursor,
     };
