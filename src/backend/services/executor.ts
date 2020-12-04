@@ -20,6 +20,7 @@ export class ChannelCrawlExecutor {
         nextTs: new Date().getTime(),
         total: 0,
         error: `Channel ${channelId} is not found`,
+        nextCursor: '',
       };
     }
 
@@ -54,6 +55,7 @@ export class ChannelCrawlExecutor {
       nextTs: response.nextTs,
       total: response.messages.length,
       error: null,
+      nextCursor: Math.random().toString(),
     };
   }
 

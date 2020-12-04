@@ -32,14 +32,16 @@ export class ExecutorOrchestrator {
     const multibar = new cliProgress.MultiBar({
       clearOnComplete: false,
       hideCursor: true,
-      format: 'Channel: {channel} | Current: {current} | Last fetch total: {lastTotal}',
+      format: 'Channel: {channel} | Current: {current} | Last fetch total: {lastTotal} | Cursor: {cursor}',
 
     }, cliProgress.Presets.shades_grey);
 
     const executors = channels.map((channel) => ({
       channelId: channel.id,
       executor: new ChannelCrawlExecutor(this.slack, this.firestore, this.comprehend),
-      progress: multibar.create(200, 0, { channel: channel.name, lastTotal: 0, current: '' }),
+      progress: multibar.create(200, 0, {
+        channel: channel.name, lastTotal: 0, current: '', cursor: '',
+      }),
     }));
 
     do {
@@ -52,12 +54,14 @@ export class ExecutorOrchestrator {
           executor.progress.update({
             current: new Date(output.nextTs).toISOString(),
             lastTotal: output.total,
+            cursor: output.nextCursor,
           });
         }
         if (output?.error) {
           executor.progress.update({
             current: output.error,
             lastTotal: 0,
+            cursor: '',
           });
           executor.progress.stop();
         }
