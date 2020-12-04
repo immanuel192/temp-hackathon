@@ -241,6 +241,12 @@ export default {
               return ''
             }
           }
+        },
+        title: {
+          display: true,
+          text: 'Team Sentiment over Time',
+          fontFamily: 'Source Sans Pro',
+          fontSize: 18,
         }
       }
     }

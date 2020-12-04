@@ -15,7 +15,9 @@ export default {
       options: {
         title: {
           display: true,
-          text: 'Sentiment Distribution'
+          text: 'Sentiment Distribution',
+          fontFamily: 'Source Sans Pro',
+          fontSize: 18,
         }
       }
     }
