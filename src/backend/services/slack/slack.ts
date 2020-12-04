@@ -78,9 +78,9 @@ export class Slack implements ISlack {
     // if no ts then grab from the last 30 days
     if (ops.ts) {
       if (ops.fetchOnward) {
-        requestConfig.oldest = Math.trunc(ops.ts * 10) / 10000;
+        requestConfig.oldest = Math.trunc(ops.ts) / 1000;
       } else {
-        requestConfig.latest = Math.trunc(ops.ts * 10) / 10000;
+        requestConfig.latest = Math.trunc(ops.ts) / 1000;
       }
     }
 
