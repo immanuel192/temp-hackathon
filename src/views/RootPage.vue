@@ -11,7 +11,7 @@ import CustomBarChart from '@/views/CustomBarChart';
 import ProgressBar from '@/views/ProgressBar';
 // @ts-ignore
 import Loading from '@/views/Loading';
-import { get, map, groupBy, chain, filter } from 'lodash';
+import { countBy, map, groupBy, chain, sum, filter, sortBy, maxBy, minBy, difference } from 'lodash';
 import { db } from '@/main';
 
 interface SentimentScore {
@@ -177,7 +177,26 @@ export default {
         }
       }
 
-      // console.log(JSON.stringify(dateSentiments, null, 2))
+      // Add date without messages
+      const maxDate = new Date(maxBy(dateSentiments, (dS) => new Date(dS.dateStr)).dateStr)
+      const minDate = new Date(minBy(dateSentiments, (dS) => new Date(dS.dateStr)).dateStr)
+      let allDatesBetween: string[] = []
+      let dt = new Date(minDate)
+      while (dt <= maxDate) {
+        allDatesBetween.push((new Date(dt)).toDateString())
+        dt.setDate(dt.getDate() + 1)
+      }
+
+      const datesWithoutSentiment = difference(allDatesBetween, dateSentiments.map(ds => ds.dateStr))
+      datesWithoutSentiment.forEach(dS => {
+        dateSentiments.push({
+          dateStr: dS,
+          count: 0,
+          sentiment: 'positive',
+        })
+      })
+
+      // Sort by date
       dateSentiments = dateSentiments.sort((dS1, dS2) => {
         return (new Date(dS1.dateStr)) > (new Date(dS2.dateStr)) ? 1 : -1
       })
