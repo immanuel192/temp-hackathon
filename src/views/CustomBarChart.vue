@@ -35,7 +35,3 @@ export default {
 </script>
 
 <bar-chart :chartdata="chartData" :styles="myStyles"></bar-chart>
-
-<style lang="scss" scoped>
-
-</style>

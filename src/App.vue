@@ -1,7 +1,4 @@
 <script lang="ts">
-import {
-  defineComponent, ref, watchEffect, onMounted, reactive,
-} from '@vue/composition-api';
 // @ts-ignore
 import AppHeader from '@/views/AppHeader';
 // @ts-ignore
@@ -64,9 +61,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-$header-height: 150px;
-$header-top: 5px;
-
 * {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;

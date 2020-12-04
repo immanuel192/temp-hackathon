@@ -1,5 +1,4 @@
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
 import data from '@/sample-data.json';
 import data1 from '@/sample-data-1.json';
 import data2 from '@/sample-data-2.json';
@@ -11,7 +10,7 @@ import CustomBarChart from '@/views/CustomBarChart';
 import ProgressBar from '@/views/ProgressBar';
 // @ts-ignore
 import Loading from '@/views/Loading';
-import { countBy, map, groupBy, chain, sum, filter, sortBy, maxBy, minBy, difference, forEach } from 'lodash';
+import { countBy, map, groupBy, chain, filter, maxBy, minBy, difference, forEach } from 'lodash';
 import { db } from '@/main';
 
 interface SentimentScore {

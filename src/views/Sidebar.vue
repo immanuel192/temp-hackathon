@@ -1,6 +1,6 @@
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
-import { isEmpty } from 'lodash'
+import { isEmpty } from 'lodash';
+
 export default {
   name: 'sidebar',
   props: ['channelList', 'currentChannel'],
@@ -28,10 +28,9 @@ export default {
 </template>
 <style lang="scss" scoped>
 $header-height: 150px;
-$header-top: 5px;
 
 ::v-deep .b-sidebar {
-  top: calc(#{$header-height} + #{$header-top});
+  top: $header-height;
   width: 220px;
   background: #212121 !important;
   color: #ccc !important;

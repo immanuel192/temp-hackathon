@@ -1,5 +1,4 @@
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
 import { PolarArea } from 'vue-chartjs';
 
 export default {
@@ -8,7 +7,7 @@ export default {
     chartData: {
       type: Object,
       default: null,
-    }
+    },
   },
   data() {
     return {
@@ -18,28 +17,27 @@ export default {
           text: 'Sentiment Distribution',
           fontFamily: 'Source Sans Pro',
           fontSize: 18,
-        }
-      }
+        },
+      },
     }
   },
   watch: {
     chartData () {
+      // @ts-ignore
       this.renderChart(this.chartData, this.options)
     }
   },
   mounted() {
+    // @ts-ignore
     this.renderChart(this.chartData, this.options)
   },
   computed: {
     myStyles () {
       return {
-        position: 'relative'
+        position: 'relative',
       }
     }
   }
 }
 </script>
-  <bar-chart :chartdata="chartData" :styles="myStyles"></bar-chart>
-<style lang="scss" scoped>
-
-</style>
+<bar-chart :chartdata="chartData" :styles="myStyles"></bar-chart>
