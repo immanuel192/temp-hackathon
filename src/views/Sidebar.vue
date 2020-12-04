@@ -1,21 +1,24 @@
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api';
-
+import { isEmpty } from 'lodash'
 export default {
   name: 'sidebar',
-  props: ['channelList'],
+  props: ['channelList', 'currentChannel'],
   methods: {
     clickChannel(id: string) {
       this.$emit('change-channel', id)
-    }
-  }
+    },
+    isItemSelected(id: string) {
+      return !isEmpty(this.currentChannel) ? id === this.currentChannel.channelId : false
+    },
+  },
 }
 </script>
 <template>
   <div>
     <b-sidebar visible shadow>
       <template v-for="channel in channelList">
-        <div :key="channel.channelId" class="item" @click="clickChannel(channel)">#{{ channel.name }}</div>
+        <div :key="channel.channelId" class="item" :class="{ selected: isItemSelected(channel.channelId) }" @click="clickChannel(channel)">#{{ channel.name }}</div>
       </template>
       <footer class="position-absolute">
         <div>A Hackathon 2020 project by Thao, Trung, Sarah, Jason, Simon</div>
@@ -37,6 +40,11 @@ $header-top: 5px;
     margin: 0px 16px;
     padding: 10px 0;
     cursor: pointer;
+
+    &.selected {
+      font-weight: 400;
+      color: #f7544d;
+    }
   }
 
   button {

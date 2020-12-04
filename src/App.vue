@@ -57,7 +57,7 @@ export default {
   <div class="app">
     <app-header/>
     <div class="main-container d-flex">
-      <sidebar :channelList="channelList" @change-channel="changeChannel" />
+      <sidebar :channelList="channelList" :currentChannel="currentChannel" @change-channel="changeChannel" />
       <root-page :currentChannel="currentChannel" />
     </div>
   </div>
