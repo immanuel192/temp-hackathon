@@ -26,9 +26,7 @@ $header-top: 5px;
   width: 100%;
 
   .logo {
-    width: 300px;
-    background: #fff;
-    border-radius: 4px;
+    margin-top: -22px;
   }
 }
 </style>
