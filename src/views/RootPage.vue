@@ -78,6 +78,7 @@ export default {
   methods: {
     async getData() {
       this.loaded = false;
+      this.rawData = [];
       db.collection("messagesentiments").get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           this.rawData.push({ ...doc.data() })
