@@ -7,7 +7,9 @@ export default defineComponent({
 <template>
   <div>
     <header class="header d-flex">
-      <div class="justify-content-center align-self-center">SentiMinder</div>
+      <div class="justify-content-center align-self-center">
+        <img class="logo" src="@/assets/sentiMinder-logo.png" alt="logo">
+      </div>
     </header>
   </div>
 </template>
@@ -22,5 +24,11 @@ $header-top: 5px;
   height: $header-height;
   margin-top: $header-top;
   width: 100%;
+
+  .logo {
+    width: 300px;
+    background: #fff;
+    border-radius: 4px;
+  }
 }
 </style>
