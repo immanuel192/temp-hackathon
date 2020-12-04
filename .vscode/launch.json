@@ -13,7 +13,7 @@
       ],
       "runtimeArgs": [
         "-r",
-        "ts-node/register/transpile-only"
+        "ts-node/register/transpile-only",
       ],
       "smartStep": false,
       "cwd": "${workspaceFolder}",
