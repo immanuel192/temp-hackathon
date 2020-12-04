@@ -61,6 +61,8 @@ export default {
       rawData: [],
       currentChannelList: [],
       polarChartData: {},
+      minDate: null,
+      maxDate: null,
       loaded: false,
     }
   },
@@ -179,7 +181,9 @@ export default {
 
       // Add date without messages
       const maxDate = new Date(maxBy(dateSentiments, (dS) => new Date(dS.dateStr)).dateStr)
+      this.maxDate = maxDate.toDateString()
       const minDate = new Date(minBy(dateSentiments, (dS) => new Date(dS.dateStr)).dateStr)
+      this.minDate = minDate.toDateString()
       let allDatesBetween: string[] = []
       let dt = new Date(minDate)
       while (dt <= maxDate) {
@@ -248,6 +252,7 @@ export default {
     <div class="root-page-container">
       <div class="d-md-flex">
         <div class="title">#{{ currentChannel.name }}</div>
+        <div class="subtitle" v-if="loaded">Range: {{minDate}} - {{maxDate}}</div>
         <div class="refresh" @click="this.getData">
           <img src="@/assets/icon-refresh.png" alt="refresh">
         </div>
@@ -278,6 +283,11 @@ export default {
 
     .title {
       font-size: 36px;
+      color: #333333;
+    }
+
+    .subtitle {
+      font-size: 26px;
       color: #333333;
     }
 
