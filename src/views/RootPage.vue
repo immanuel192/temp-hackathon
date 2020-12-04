@@ -57,12 +57,12 @@ export default {
   props: ['currentChannel'],
   data() {
     return {
-      rawData: [],
-      currentChannelList: [],
+      rawData: [] as MessageSentiment[],
+      currentChannelList: [] as MessageSentiment[],
       polarChartData: {},
-      minDateString: '',
-      maxDateString: '',
-      loaded: false,
+      minDateString: '' as String,
+      maxDateString: '' as String,
+      loaded: false as Boolean,
       barChartData: {},
     }
   },
@@ -80,13 +80,13 @@ export default {
       this.rawData = [];
       db.collection("messagesentiments").get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
-          this.rawData.push({ ...doc.data() })
+          this.rawData.push({ ...doc.data() as MessageSentiment })
         });
         this.getCurrentChannelList()
       });
     },
     getCurrentChannelList() {
-      const dataSet = filter(this.rawData, (item) => {
+      const dataSet: MessageSentiment[] | [] = filter(this.rawData, (item: MessageSentiment) => {
         return item.channelId === this.currentChannel.channelId
       })
 
@@ -102,7 +102,7 @@ export default {
     },
     getPolarChartData() {
       const dataSet = chain(this.currentChannelList)
-        .map((item) => {
+        .map((item: MessageSentiment) => {
         return {
           time: `${item.tsDetail.year}/${item.tsDetail.month}/${item.tsDetail.day}`,
           ...item.sentimentScore,

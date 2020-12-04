@@ -7,6 +7,11 @@ import Sidebar from '@/views/Sidebar';
 import RootPage from '@/views/RootPage';
 import { db } from '@/main';
 
+interface Channel {
+  channelId: string
+  name: string
+}
+
 export default {
   name: 'App',
   components: {
@@ -16,8 +21,8 @@ export default {
   },
   data() {
     return {
-      channelList: [],
-      currentChannel: {},
+      channelList: [] as Channel[],
+      currentChannel: {} as Channel,
     }
   },
   mounted() {
@@ -31,15 +36,14 @@ export default {
             {
               channelId: doc.data().channelId,
               name: doc.data().name,
-            }
+            },
           )
         });
 
         this.setDefaultChannel()
-
       });
     },
-    changeChannel(channel) {
+    changeChannel(channel: Channel) {
       this.currentChannel = channel
     },
     setDefaultChannel() {

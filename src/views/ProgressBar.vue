@@ -14,20 +14,20 @@ export default {
       options: {
         title: {
           display: true,
-          text: 'Sentiment Distribution'
-        }
-      }
+          text: 'Sentiment Distribution',
+        },
+      },
     }
   },
   computed: {
-    percentage() {
-      return round((this.noMixedAmount) /
-        this.totalAmount, 2)
+    percentage(): Number {
+      return round((this.noMixedAmount as number) /
+        (this.totalAmount as number), 2)
     },
-    totalAmount() {
+    totalAmount(): Number {
       return sum(this.chartData.datasets[0].data)
     },
-    noMixedAmount() {
+    noMixedAmount(): Number {
       return this.chartData.datasets[0].data[1] +
         this.chartData.datasets[0].data[2] +
         this.chartData.datasets[0].data[3] -
