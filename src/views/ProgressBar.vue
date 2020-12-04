@@ -52,9 +52,10 @@ export default {
   text-align: center;
 
   .title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
+    color: #666666;
   }
 
   .progress {

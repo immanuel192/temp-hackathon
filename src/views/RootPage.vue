@@ -295,7 +295,9 @@ export default {
     .subtitle {
       font-size: 26px;
       color: #333333;
-    }
+      line-height: 54px;
+      margin-left: 30px;
+      }
 
     .refresh {
       margin-left: auto;
