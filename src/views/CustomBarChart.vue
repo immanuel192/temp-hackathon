@@ -24,7 +24,13 @@ export default {
         position: 'relative'
       }
     }
-  }
+  },
+  watch: {
+    chartData () {
+      // @ts-ignore
+      this.renderChart(this.chartData, this.options)
+    }
+  },
 }
 </script>
 

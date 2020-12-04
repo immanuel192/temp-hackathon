@@ -11,7 +11,7 @@ import CustomBarChart from '@/views/CustomBarChart';
 import ProgressBar from '@/views/ProgressBar';
 // @ts-ignore
 import Loading from '@/views/Loading';
-import { countBy, map, groupBy, chain, sum, filter, sortBy, maxBy, minBy, difference } from 'lodash';
+import { countBy, map, groupBy, chain, sum, filter, sortBy, maxBy, minBy, difference, forEach } from 'lodash';
 import { db } from '@/main';
 
 interface SentimentScore {
@@ -61,9 +61,10 @@ export default {
       rawData: [],
       currentChannelList: [],
       polarChartData: {},
-      minDate: null,
-      maxDate: null,
+      minDateString: '',
+      maxDateString: '',
       loaded: false,
+      barChartData: {},
     }
   },
   watch: {
@@ -93,6 +94,7 @@ export default {
 
       if (this.currentChannelList.length !== 0) {
         this.getPolarChartData()
+        this.getBarChartData()
       } else {
         console.log('no match data')
         this.loaded = true
@@ -112,10 +114,10 @@ export default {
       this.polarChartData = {
         datasets: [{
           data: [
-            dataSet.MIXED.length,
-            dataSet.POSITIVE.length,
-            dataSet.NEUTRAL.length,
-            dataSet.NEGATIVE.length,
+            dataSet.MIXED ? dataSet.MIXED.length : 0,
+            dataSet.POSITIVE ? dataSet.POSITIVE.length : 0,
+            dataSet.NEUTRAL ? dataSet.NEUTRAL.length : 0,
+            dataSet.NEGATIVE ? dataSet.NEGATIVE.length : 0,
           ],
           backgroundColor: [
             "rgba(102, 102, 102, .75)",
@@ -138,11 +140,9 @@ export default {
         ],
       }
       this.loaded = true
-    }
-  },
-  computed: {
-    barChartData() {
-      const messageSentiments: MessageSentiment[] = this.rawData
+    },
+    getBarChartData() {
+      const messageSentiments: MessageSentiment[] = this.currentChannelList
 
       const sentimentsByDate = groupBy(messageSentiments, (sentiment) => {
         return (new Date(sentiment.ts.seconds * 1000)).toDateString()
@@ -180,25 +180,27 @@ export default {
       }
 
       // Add date without messages
-      const maxDate = new Date(maxBy(dateSentiments, (dS) => new Date(dS.dateStr)).dateStr)
-      this.maxDate = maxDate.toDateString()
-      const minDate = new Date(minBy(dateSentiments, (dS) => new Date(dS.dateStr)).dateStr)
-      this.minDate = minDate.toDateString()
-      let allDatesBetween: string[] = []
-      let dt = new Date(minDate)
-      while (dt <= maxDate) {
-        allDatesBetween.push((new Date(dt)).toDateString())
-        dt.setDate(dt.getDate() + 1)
-      }
+      if (dateSentiments.length > 0) {
+        const maxDate = new Date(maxBy(dateSentiments, (dS) => new Date(dS.dateStr))!.dateStr)
+        this.maxDateString = maxDate.toDateString()
+        const minDate = new Date(minBy(dateSentiments, (dS) => new Date(dS.dateStr))!.dateStr)
+        this.minDateString = minDate.toDateString()
+        let allDatesBetween: string[] = []
+        let dt = new Date(minDate)
+        while (dt <= maxDate) {
+          allDatesBetween.push((new Date(dt)).toDateString())
+          dt.setDate(dt.getDate() + 1)
+        }
 
-      const datesWithoutSentiment = difference(allDatesBetween, dateSentiments.map(ds => ds.dateStr))
-      datesWithoutSentiment.forEach(dS => {
-        dateSentiments.push({
-          dateStr: dS,
-          count: 0,
-          sentiment: 'positive',
+        const datesWithoutSentiment = difference(allDatesBetween, dateSentiments.map(ds => ds.dateStr))
+        datesWithoutSentiment.forEach(dS => {
+          dateSentiments.push({
+            dateStr: dS,
+            count: 0,
+            sentiment: 'positive',
+          })
         })
-      })
+      }
 
       // Sort by date
       dateSentiments = dateSentiments.sort((dS1, dS2) => {
@@ -220,10 +222,12 @@ export default {
         }
       })
 
-      return {
+      this.barChartData = {
         datasets: dataSets,
       }
-    },
+    }
+  },
+  computed: {
     barChartOptions() {
       return {
         responsive: true,
@@ -258,16 +262,16 @@ export default {
     <div class="root-page-container">
       <div class="d-md-flex">
         <div class="title">#{{ currentChannel.name }}</div>
-        <div class="subtitle" v-if="loaded">Range: {{minDate}} - {{maxDate}}</div>
+        <div class="subtitle" v-if="loaded">Range: {{minDateString}} - {{maxDateString}}</div>
         <div class="refresh" @click="this.getData">
           <img src="@/assets/icon-refresh.png" alt="refresh">
         </div>
       </div>
       <loading v-if="!loaded" class="loading-container p-3 p-md-5 m-md-3"/>
-      <custom-bar-chart v-if="loaded" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
+      <custom-bar-chart v-if="loaded && this.currentChannelList.length !== 0" class="bar-chart p-3 p-md-5 m-md-3" :chartData="barChartData" :options="barChartOptions"/>
       <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <progress-bar v-if="loaded" class="progress-chart" :chartData="polarChartData" />
-        <custom-polar-chart v-if="loaded" class="polar-chart d-flex" :chartData="polarChartData" />
+        <progress-bar v-if="loaded && this.currentChannelList.length !== 0" class="progress-chart" :chartData="polarChartData" />
+        <custom-polar-chart v-if="loaded && this.currentChannelList.length !== 0" class="polar-chart d-flex" :chartData="polarChartData" />
       </div>
     </div>
   </div>
